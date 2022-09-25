@@ -115,7 +115,7 @@ button {
 	height: 43.75vw;
 	display: flex;
 	justify-content: center;
-	background-image: url(../../assets/images/watchBackground.png);
+	background-image: url(../../assets/images/main/watch/watchBackground.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -165,7 +165,7 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url(../../assets/images/backstageBackground.png);
+	background-image: url(../../assets/images/main/backstage/backstageBackground.png);
 	background-repeat: no-repeat;
 	background-position-x: 87.1vw;
 	background-position-y: 0.6vw;
@@ -220,7 +220,7 @@ button {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-image: url(../../assets/images/pets/backgroundPalm.png), url(../../assets/images/pets/backgroundStrelitzia.png);
+	background-image: url(../../assets/images/main/pets/backgroundPalm.png), url(../../assets/images/main/pets/backgroundStrelitzia.png);
 	background-repeat: no-repeat;
 	background-position: bottom left, bottom right;
 }
@@ -523,7 +523,7 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url(../../assets/images/testimonials/backgroundTestimonials.png);
+	background: url(../../assets/images/main/testimonials/backgroundTestimonials.png);
 	background-position-x: right;
 	background-position-y: 40.18vw;
 	background-size: 15.45vw;
@@ -575,22 +575,22 @@ button {
 	height: 2.31vw;
 	border-radius: 3vw;
 	&1 {
-		background-image: url(../../assets/icons/testimonials/defaultUserIcon.svg);
+		background-image: url(../../assets/icons/main/testimonials/defaultUserIcon.svg);
 		background-size: cover;
     background-repeat: no-repeat;
 	}
 	&2 {
-		background-image: url(../../assets/icons/testimonials/user1.png);
+		background-image: url(../../assets/icons/main/testimonials/user1.png);
 		background-size: cover;
     background-repeat: no-repeat;
 	}
 	&3 {
-		background-image: url(../../assets/icons/testimonials/user2.png);
+		background-image: url(../../assets/icons/main/testimonials/user2.png);
 		background-size: cover;
     background-repeat: no-repeat;
 	}
 	&4 {
-		background-image: url(../../assets/icons/testimonials/user3.png);
+		background-image: url(../../assets/icons/main/testimonials/user3.png);
 		background-position: top;
     background-size: 2.7vw;
     background-repeat: no-repeat;
@@ -620,7 +620,7 @@ button {
 .testimonials__separator {
 	width: 0.31vw;
 	margin: 0 0.4vw;
-	background-image: url(../../assets/icons/testimonials/separator.svg);
+	background-image: url(../../assets/icons/main/testimonials/separator.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -646,9 +646,6 @@ button {
     linear-gradient(#F5F7F6,#F5F7F6) padding-box,
     linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%) border-box;
 	appearance: none;
-	&::-webkit-slider-runnable-track {
-
-	}
 	&::-webkit-slider-thumb {
 		height: 0.38vw;
 		width: 7.19vw;

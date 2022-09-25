@@ -1,0 +1,243 @@
+.footer {
+  height: 27.69vw;
+  display: flex;
+  justify-content: center;
+  background-color: #111115;
+}
+
+.footer__container {
+  width: 72.50vw;
+  height: 22.1vw;
+  margin-top: 2.51vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contactsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  width: 5.17vw;
+  height: 3.3vw;
+  cursor: pointer;
+}
+
+.footer__donate {
+  width: 18.63vw;
+  height: 3.38vw;
+  margin-top: 4.02vw;
+  border: none;
+  border-radius: 0.31vw;
+  background: none;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 140%;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer__donate:hover {
+  background: #E47209;
+}
+
+.footer__donate:active {
+  background: #4B9200;
+}
+
+.footer__donate:disabled {
+  background: #767474;
+}
+
+.footer__socialBox {
+  height: 8.3vw;
+  margin-top: 2.8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer__socialLinkContainer {
+  width: 7vw;
+}
+
+.footer__socialLinkContainer a {
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.footer__socialLinkContainer:hover .footer__socialIcon {
+  background-color: #4B9200;
+}
+
+.footer__socialLinkContainer:hover .footer__socialName {
+  color: #4B9200;
+}
+
+.footer__socialIcon {
+  width: 1.63vw;
+  height: 1.63vw;
+  border-radius: 3vw;
+  background-color: rgba(196, 196, 196, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.footer__socialIconFacebook {
+  background-image: url(../../assets/icons/footer/facebook.svg);
+  background-size: 0.48vw;
+}
+
+.footer__socialIconTwitter {
+  background-image: url(../../assets/icons/footer/twitter.svg);
+  background-size: 1vw;
+}
+
+.footer__socialIconInstagram {
+  background-image: url(../../assets/icons/footer/instagram.svg);
+  background-size: 1vw;
+}
+
+.footer__socialIconYoutube {
+  background-image: url(../../assets/icons/footer/youtube.svg);
+  background-size: 1vw;
+}
+
+.footer__socialName {
+  margin-left: 0.75vw;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 140%;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer__navigationContainer {
+  width: 22.5vw;
+  margin-left: 4.33vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footer__navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer__pageLink {
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.footer__pageLink:hover {
+  color: #F9804B;
+}
+
+.footer__pageLink-active {
+  color: #F9804B;
+}
+
+.footer__subscribeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer__subscribeLabel {
+  font-weight: 400;
+  font-size: 1.50vw;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.footer__form {
+  margin-top: 0.9vw;
+  display: flex;
+}
+
+.footer__form:valid .footer__btnSubmit {
+  border: 0.06vw solid #333B41;
+  color: #000000;
+}
+
+.footer__form:invalid .footer__btnSubmit {
+  color: #D31414;
+  border: 0.06vw solid #D31414;
+}
+
+.footer__subscribeInput {
+  height: 2.63vw;
+  width: 14.25vw;
+  padding: 0.63vw;
+  border-radius: 0.13vw;
+  border: 0.05vw solid #0000;
+  background: linear-gradient(#111115, #111115) padding-box, linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%) border-box;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 140%;
+  color: #BDBDBD;
+  outline: none;
+  cursor: revert;
+}
+
+.footer__subscribeInput:not(:placeholder-shown):valid {
+  border: 0.06vw solid #4B9200;
+  background: #111115;
+}
+
+.footer__subscribeInput:not(:placeholder-shown):invalid {
+  color: #D31414;
+  background: #111115;
+  border: 0.06vw solid #D31414;
+}
+
+.footer__btnSubmit {
+  width: 8.06vw;
+  height: 2.63vw;
+  margin-left: 0.63vw;
+  background: #F1F3F2;
+  border: 0.06vw solid #333B41;
+  border-radius: 0.31vw;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 140%;
+  color: #000000;
+}
+
+.footer__btnSubmit:default {
+  border: 0.06vw solid #333B41;
+  color: #000000;
+}
+
+.footer__btnSubmit:hover {
+  border: 0.06vw solid #4B9200 !important;
+  color: #4B9200 !important;
+}
+
+.footer__design {
+  font-weight: 100;
+  font-size: 1vw;
+  line-height: 130%;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.footer__design:hover {
+  color: #4B9200;
+  text-decoration: underline;
+}
+
+.footer__design p {
+  margin-top: 0.6vw;
+  cursor: pointer;
+}
