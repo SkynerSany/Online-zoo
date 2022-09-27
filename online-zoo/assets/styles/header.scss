@@ -3,6 +3,10 @@
 	display: flex;
 	justify-content: center;
   background-color: #000000;
+
+	@media screen and (max-width: 1000px) {
+		height: 8vw;
+	}
 }
 
 .header__container {
@@ -10,6 +14,12 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	background-color: #000000;
+	z-index: 2;
+	
+	@media screen and (max-width: 1000px) {
+		width: 94vw;
+	}
 }
 
 .header__navigationContainer {
@@ -21,6 +31,11 @@
   width: 5.13vw;
 	margin-top: 0.2vw;
 	cursor: pointer;
+
+	@media screen and (max-width: 1000px) {
+		height: 5.20vw;
+		width: 8.20vw;
+	}
 }
 
 .header__title {
@@ -31,11 +46,20 @@
 	margin-left: 3.9vw;
 	display: flex;
 	align-items: center;
+
 	ul {
 		width: 29.45vw;
 		display: flex;
 		justify-content: space-between;
 		list-style-type: none;
+
+		@media screen and (max-width: 1000px) {
+			width: 43vw;
+		}
+	}
+
+	@media screen and (max-width: 1000px) {
+		margin-left: 6.35vw;
 	}
 }
 
@@ -50,6 +74,10 @@
 	&-active {
 		color: #F9804B;
 	}
+
+	@media screen and (max-width: 1000px) {
+		font-size: 1.6vw;
+	}
 }
 
 .header__designedBy {
@@ -59,5 +87,9 @@
 	line-height: 140%;
 	&:hover {
 		color: #F9804B;
+	}
+
+	@media screen and (max-width: 1000px) {
+		font-size: 1.6vw;
 	}
 }

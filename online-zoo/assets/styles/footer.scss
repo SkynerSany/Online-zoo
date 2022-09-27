@@ -3,6 +3,10 @@
 	display: flex;
 	justify-content: center;
 	background-color: #111115;
+
+	@media screen and (max-width: 1000px) {
+		height: 44.3vw;
+	}
 }
 
 .footer__container {
@@ -11,17 +15,32 @@
 	margin-top: 2.51vw;
 	display: flex;
 	justify-content: space-between;
+	
+	@media screen and (max-width: 1000px) {
+		width: 96.3vw;
+		height: 36.5vw;
+		margin-top: 4.1vw;
+	}
 }
 
 .footer__contactsContainer {
 	display: flex;
 	flex-direction: column;
+
+	@media screen and (max-width: 1000px) {
+		margin-left: 2.4vw;
+	}
 }
 
 .footer__logo {
 	width: 5.17vw;
 	height: 3.3vw;
 	cursor: pointer;
+
+	@media screen and (max-width: 1000px) {
+		width: 8.2vw;
+		height: 5.2vw;
+	}
 }
 
 .footer__donate {
@@ -49,15 +68,30 @@
 	&:disabled {
 		background: #767474;
 	}
+
+	@media screen and (max-width: 1000px) {
+		width: 29.8vw;
+		height: 5.4vw;
+		margin-top: 6.4vw;
+    margin-right: 0;
+		padding: 0;
+		border-radius: 0.5vw;
+		font-size: 1.6vw;
+	}
 }
 
 .footer__socialBox {
-	height: 8.3vw;
+	height: 15vw;
 	margin-top: 2.8vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	list-style-type: none;
+
+	@media screen and (max-width: 1000px) {
+		height: 13.4vw;
+    margin-top: 4.4vw;
+	}
 }
 
 .footer__socialLinkContainer {
@@ -78,6 +112,10 @@
 			color: #4B9200;
 		}
 	}
+
+	@media screen and (max-width: 1000px) {
+		width: 14vw;
+	}
 }
 
 .footer__socialIcon {
@@ -88,6 +126,8 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	cursor: pointer;
+	background-size: 1vw;
+
 	&Facebook {
 		background-image: url(../../assets/icons/footer/facebook.svg);
 		background-size: 0.48vw;
@@ -95,17 +135,25 @@
 
 	&Twitter {
 		background-image: url(../../assets/icons/footer/twitter.svg);
-		background-size: 1vw;
 	}
 
 	&Instagram {
 		background-image: url(../../assets/icons/footer/instagram.svg);
-		background-size: 1vw;
 	}
 
 	&Youtube {
 		background-image: url(../../assets/icons/footer/youtube.svg);
-		background-size: 1vw;
+	}
+
+	@media screen and (max-width: 1000px) {
+		width: 2.63vw;
+		height: 2.63vw;
+		border-radius: 50%;
+		background-size: 1.6vw;
+
+		&Facebook {
+			background-size: 0.8vw;
+		}
 	}
 }
 
@@ -116,6 +164,11 @@
 	line-height: 140%;
 	color: #ffffff;
 	cursor: pointer;
+
+	@media screen and (max-width: 1000px) {
+		margin-left: 1.3vw;
+		font-size: 1.6vw;
+	}
 }
 
 .footer__navigationContainer {
@@ -124,6 +177,11 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+
+	@media screen and (max-width: 1000px) {
+		width: 33.2vw;
+		margin: 0 -7.9vw 1.3vw -0.7vw;
+	}
 }
 
 .footer__navigation {
@@ -137,11 +195,17 @@
 	font-size: 1vw;
 	line-height: 140%;
 	color: #ffffff;
+
 	&:hover {
 		color: #F9804B;
 	}
+
 	&-active {
 		color: #F9804B;
+	}
+
+	@media screen and (max-width: 1000px) {
+		font-size: 1.6vw;
 	}
 }
 
@@ -152,16 +216,27 @@
 	align-items: flex-end;
 }
 
+.footer__subscribe {
+	@media screen and (max-width: 1000px) {
+    margin-right: 3.2vw;
+	}
+}
+
 .footer__subscribeLabel {
 	font-weight: 400;
 	font-size: 1.50vw;
 	line-height: 120%;
 	color: #FFFFFF;
+
+	@media screen and (max-width: 1000px) {
+		font-size: 2.4vw;
+	}
 }
 
 .footer__form {
 	margin-top: 0.9vw;
 	display: flex;
+	
 	&:valid {
 		.footer__btnSubmit {
 			border: 0.06vw solid #333B41;
@@ -176,6 +251,9 @@
 		}
 	}
 	
+	@media screen and (max-width: 1000px) {
+		margin-top: 1.3vw;
+	}
 }
 
 .footer__subscribeInput {
@@ -193,6 +271,7 @@
 	color: #BDBDBD;
 	outline: none;
 	cursor: revert;
+
 	&:not(:placeholder-shown) {
 		&:valid {
 			border: 0.06vw solid #4B9200;
@@ -204,6 +283,13 @@
 			background: #111115;
 			border: 0.06vw solid #D31414;
 		}
+	}
+
+	@media screen and (max-width: 1000px) {
+		height: 4.2vw;
+		width: 22.8vw;
+		padding: 0.9vw;
+		font-size: 1.6vw;
 	}
 }
 
@@ -218,6 +304,7 @@
 	font-size: 1vw;
 	line-height: 140%;
 	color: #000000;
+
 	&:default {
 		border: 0.06vw solid #333B41;
 		color: #000000;
@@ -227,6 +314,14 @@
 		border: 0.06vw solid #4B9200!important;
 		color: #4B9200!important;
 	}
+
+	@media screen and (max-width: 1000px) {
+		height: 4.2vw;
+		width: 12.9vw;
+		margin-left: 0.9vw;
+		border-radius: 0.5vw;
+		font-size: 1.6vw;
+	}
 }
 
 .footer__design {
@@ -235,12 +330,23 @@
 	line-height: 130%;
 	color: #FFFFFF;
 	cursor: pointer;
+
 	&:hover {
 		color: #4B9200;
 		text-decoration: underline;
 	}
+
 	p {
 		margin-top: 0.6vw;
 		cursor: pointer;
+
+		@media screen and (max-width: 1000px) {
+			margin-top: 1vw;
+		}
+	}
+
+	@media screen and (max-width: 1000px) {
+		margin-bottom: 1.2vw;
+		font-size: 1.6vw;
 	}
 }

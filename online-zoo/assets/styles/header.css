@@ -5,11 +5,25 @@
   background-color: #000000;
 }
 
+@media screen and (max-width: 1000px) {
+  .header {
+    height: 8vw;
+  }
+}
+
 .header__container {
   width: 72.45vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #000000;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__container {
+    width: 94vw;
+  }
 }
 
 .header__navigationContainer {
@@ -21,6 +35,13 @@
   width: 5.13vw;
   margin-top: 0.2vw;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__logo {
+    height: 5.20vw;
+    width: 8.20vw;
+  }
 }
 
 .header__title {
@@ -40,6 +61,18 @@
   list-style-type: none;
 }
 
+@media screen and (max-width: 1000px) {
+  .header__navigationBar ul {
+    width: 43vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__navigationBar {
+    margin-left: 6.35vw;
+  }
+}
+
 .header__navigationLink {
   font-weight: 500;
   font-size: 1vw;
@@ -55,6 +88,12 @@
   color: #F9804B;
 }
 
+@media screen and (max-width: 1000px) {
+  .header__navigationLink {
+    font-size: 1.6vw;
+  }
+}
+
 .header__designedBy {
   color: #ffffff;
   font-weight: 500;
@@ -64,4 +103,10 @@
 
 .header__designedBy:hover {
   color: #F9804B;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__designedBy {
+    font-size: 1.6vw;
+  }
 }

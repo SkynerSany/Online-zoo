@@ -5,6 +5,12 @@
   background-color: #111115;
 }
 
+@media screen and (max-width: 1000px) {
+  .footer {
+    height: 44.3vw;
+  }
+}
+
 .footer__container {
   width: 72.50vw;
   height: 22.1vw;
@@ -13,15 +19,36 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1000px) {
+  .footer__container {
+    width: 96.3vw;
+    height: 36.5vw;
+    margin-top: 4.1vw;
+  }
+}
+
 .footer__contactsContainer {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__contactsContainer {
+    margin-left: 2.4vw;
+  }
 }
 
 .footer__logo {
   width: 5.17vw;
   height: 3.3vw;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__logo {
+    width: 8.2vw;
+    height: 5.2vw;
+  }
 }
 
 .footer__donate {
@@ -51,13 +78,32 @@
   background: #767474;
 }
 
+@media screen and (max-width: 1000px) {
+  .footer__donate {
+    width: 29.8vw;
+    height: 5.4vw;
+    margin-top: 6.4vw;
+    margin-right: 0;
+    padding: 0;
+    border-radius: 0.5vw;
+    font-size: 1.6vw;
+  }
+}
+
 .footer__socialBox {
-  height: 8.3vw;
+  height: 15vw;
   margin-top: 2.8vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   list-style-type: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__socialBox {
+    height: 13.4vw;
+    margin-top: 4.4vw;
+  }
 }
 
 .footer__socialLinkContainer {
@@ -78,6 +124,12 @@
   color: #4B9200;
 }
 
+@media screen and (max-width: 1000px) {
+  .footer__socialLinkContainer {
+    width: 14vw;
+  }
+}
+
 .footer__socialIcon {
   width: 1.63vw;
   height: 1.63vw;
@@ -86,6 +138,7 @@
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+  background-size: 1vw;
 }
 
 .footer__socialIconFacebook {
@@ -95,17 +148,26 @@
 
 .footer__socialIconTwitter {
   background-image: url(../../assets/icons/footer/twitter.svg);
-  background-size: 1vw;
 }
 
 .footer__socialIconInstagram {
   background-image: url(../../assets/icons/footer/instagram.svg);
-  background-size: 1vw;
 }
 
 .footer__socialIconYoutube {
   background-image: url(../../assets/icons/footer/youtube.svg);
-  background-size: 1vw;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__socialIcon {
+    width: 2.63vw;
+    height: 2.63vw;
+    border-radius: 50%;
+    background-size: 1.6vw;
+  }
+  .footer__socialIconFacebook {
+    background-size: 0.8vw;
+  }
 }
 
 .footer__socialName {
@@ -117,12 +179,26 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1000px) {
+  .footer__socialName {
+    margin-left: 1.3vw;
+    font-size: 1.6vw;
+  }
+}
+
 .footer__navigationContainer {
   width: 22.5vw;
   margin-left: 4.33vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__navigationContainer {
+    width: 33.2vw;
+    margin: 0 -7.9vw 1.3vw -0.7vw;
+  }
 }
 
 .footer__navigation {
@@ -146,6 +222,12 @@
   color: #F9804B;
 }
 
+@media screen and (max-width: 1000px) {
+  .footer__pageLink {
+    font-size: 1.6vw;
+  }
+}
+
 .footer__subscribeContainer {
   display: flex;
   flex-direction: column;
@@ -153,11 +235,23 @@
   align-items: flex-end;
 }
 
+@media screen and (max-width: 1000px) {
+  .footer__subscribe {
+    margin-right: 3.2vw;
+  }
+}
+
 .footer__subscribeLabel {
   font-weight: 400;
   font-size: 1.50vw;
   line-height: 120%;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__subscribeLabel {
+    font-size: 2.4vw;
+  }
 }
 
 .footer__form {
@@ -173,6 +267,12 @@
 .footer__form:invalid .footer__btnSubmit {
   color: #D31414;
   border: 0.06vw solid #D31414;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__form {
+    margin-top: 1.3vw;
+  }
 }
 
 .footer__subscribeInput {
@@ -201,6 +301,15 @@
   border: 0.06vw solid #D31414;
 }
 
+@media screen and (max-width: 1000px) {
+  .footer__subscribeInput {
+    height: 4.2vw;
+    width: 22.8vw;
+    padding: 0.9vw;
+    font-size: 1.6vw;
+  }
+}
+
 .footer__btnSubmit {
   width: 8.06vw;
   height: 2.63vw;
@@ -224,6 +333,16 @@
   color: #4B9200 !important;
 }
 
+@media screen and (max-width: 1000px) {
+  .footer__btnSubmit {
+    height: 4.2vw;
+    width: 12.9vw;
+    margin-left: 0.9vw;
+    border-radius: 0.5vw;
+    font-size: 1.6vw;
+  }
+}
+
 .footer__design {
   font-weight: 100;
   font-size: 1vw;
@@ -240,4 +359,17 @@
 .footer__design p {
   margin-top: 0.6vw;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__design p {
+    margin-top: 1vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__design {
+    margin-bottom: 1.2vw;
+    font-size: 1.6vw;
+  }
 }

@@ -277,24 +277,23 @@
     line-height: 140%;
     color: #333B41;
     cursor: pointer;
-
-    &::before {
-      content: "";
-      display: inline-block;
-      width: 0.8vw;
-      height: 0.8vw;
-      border-radius: 50%;
-      border: 0.1vw solid #E47209;
-      position: absolute;
-      right: 4.9vw;
-      top: 0.15vw;
-      cursor: pointer;
-    }
   }
 
   p {
     cursor: pointer;
   }
+}
+
+.feed__donateTypeRadio {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  border: 0.1vw solid #E47209;
+  position: absolute;
+  right: 4.9vw;
+  top: 0.15vw;
+  cursor: pointer;
+  transition-duration: 300ms;
 }
 
 .feed__donateType {
@@ -303,19 +302,17 @@
   &:checked {
     &+p {
       cursor: pointer;
+    }
 
-      &::before {
-        content: "";
-        display: inline-block;
-        width: 0.7vw;
-        height: 0.7vw;
-        border-radius: 1vw;
-        background: #4B9200;
-        position: absolute;
-        right: 5.04vw;
-        top: 0.28vw;
-        cursor: pointer;
-      }
+    &+.feed__donateTypeRadio {
+      width: 1vw;
+      height: 1vw;
+      border-radius: 50%;
+      border: none;
+      background: #4B9200;
+      position: absolute;
+      right: 4.9vw;
+      top: 0.15vw;
     }
   }
 }
