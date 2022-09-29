@@ -11,6 +11,18 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .header {
+    height: 5.31vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    height: 10.63vw;
+  }
+}
+
 .header__container {
   width: 72.45vw;
   display: flex;
@@ -30,6 +42,43 @@
   display: flex;
 }
 
+.header__logoTablet {
+  height: 4.8vw;
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .header__logoTablet {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__logoTablet {
+    height: 9.5vw;
+  }
+}
+
+.header__burgerMenu {
+  height: 1.6vw;
+  margin-bottom: 0.2vw;
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .header__burgerMenu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__burgerMenu {
+    height: 3.2vw;
+    margin-bottom: 0.2vw;
+  }
+}
+
 .header__logo {
   height: 3.25vw;
   width: 5.13vw;
@@ -41,6 +90,12 @@
   .header__logo {
     height: 5.20vw;
     width: 8.20vw;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header__logo {
+    display: none;
   }
 }
 
@@ -70,6 +125,12 @@
 @media screen and (max-width: 1000px) {
   .header__navigationBar {
     margin-left: 6.35vw;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header__navigationBar {
+    display: none;
   }
 }
 
@@ -108,5 +169,11 @@
 @media screen and (max-width: 1000px) {
   .header__designedBy {
     font-size: 1.6vw;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header__designedBy {
+    display: none;
   }
 }

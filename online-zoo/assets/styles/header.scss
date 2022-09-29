@@ -7,6 +7,14 @@
 	@media screen and (max-width: 1000px) {
 		height: 8vw;
 	}
+
+	@media screen and (max-width: 640px) {
+		height: 5.31vw;
+	}
+
+	@media screen and (max-width: 320px) {
+		height: 10.63vw;
+	}
 }
 
 .header__container {
@@ -26,6 +34,35 @@
 	display: flex;
 }
 
+.header__logoTablet {
+	height: 4.8vw;
+	display: none;
+
+	@media screen and (max-width: 640px) {
+		display: block;
+	}
+
+	@media screen and (max-width: 320px) {
+		height: 9.5vw;
+	}
+}
+
+.header__burgerMenu {
+	height: 1.6vw;
+	margin-bottom: 0.2vw;
+	display: none;
+	cursor: pointer;
+
+	@media screen and (max-width: 640px) {
+		display: block;	
+	}
+
+	@media screen and (max-width: 320px) {
+		height: 3.2vw;
+		margin-bottom: 0.2vw;
+	}
+}
+
 .header__logo {
   height: 3.25vw;
   width: 5.13vw;
@@ -35,6 +72,10 @@
 	@media screen and (max-width: 1000px) {
 		height: 5.20vw;
 		width: 8.20vw;
+	}
+
+	@media screen and (max-width: 640px) {
+		display: none;	
 	}
 }
 
@@ -61,6 +102,10 @@
 	@media screen and (max-width: 1000px) {
 		margin-left: 6.35vw;
 	}
+
+	@media screen and (max-width: 640px) {
+		display: none;	
+	}
 }
 
 .header__navigationLink {
@@ -68,9 +113,11 @@
 	font-size: 1vw;
 	line-height: 140%;
 	color: #ffffff;
+
 	&:hover {
 		color: #F9804B;
 	}
+	
 	&-active {
 		color: #F9804B;
 	}
@@ -91,5 +138,9 @@
 
 	@media screen and (max-width: 1000px) {
 		font-size: 1.6vw;
+	}
+
+	@media screen and (max-width: 640px) {
+		display: none;	
 	}
 }
