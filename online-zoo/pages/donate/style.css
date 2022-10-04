@@ -15,8 +15,19 @@
 
 @media screen and (max-width: 640px) {
   .watch {
-    height: 52.4vw;
-    background-position: -43vw 0;
+    height: 57.71vw;
+    padding-top: 5.31vw;
+    background-position: -47vw 4vw;
+    background-size: 226vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .watch {
+    height: 69.03vw;
+    padding-top: 10.63vw;
+    background-position: -53vw 9vw;
+    background-size: 256vw;
   }
 }
 
@@ -36,6 +47,12 @@
 @media screen and (max-width: 640px) {
   .feed {
     height: 208.3vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feed {
+    height: 358.3vw;
   }
 }
 
@@ -65,6 +82,12 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .feed__headerBox {
+    margin-top: 9vw;
+  }
+}
+
 .feed__title {
   font-weight: 400;
   font-size: 2.25vw;
@@ -84,6 +107,14 @@
   .feed__title {
     width: 90vw;
     font-size: 3.75vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feed__title {
+    width: 90vw;
+    line-height: 125%;
+    font-size: 7.5vw;
   }
 }
 
@@ -110,6 +141,14 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .feed__description {
+    margin-top: 6vw;
+    line-height: 137%;
+    font-size: 5vw;
+  }
+}
+
 .feed__donationInfo {
   margin-top: 2.85vw;
   font-weight: 400;
@@ -129,6 +168,13 @@
   .feed__donationInfo {
     margin-top: 5vw;
     font-size: 5.63vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feed__donationInfo {
+    margin-top: 9vw;
+    font-size: 7.5vw;
   }
 }
 
@@ -163,6 +209,18 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .feed__donateContainer {
+    height: 184.6vw;
+    margin-top: 9.2vw;
+    border-radius: 6.13vw;
+    -webkit-border-radius: 6.13vw;
+    -moz-border-radius: 6.13vw;
+    -ms-border-radius: 6.13vw;
+    -o-border-radius: 6.13vw;
+  }
+}
+
 .feed__donateTitle {
   margin-top: 2.5vw;
   padding-right: 0.82vw;
@@ -186,6 +244,12 @@
     margin-top: 4.6vw;
     padding-right: 0;
     font-size: 7.50vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feed__donateTitle {
+    margin-top: 6.6vw;
   }
 }
 
@@ -214,6 +278,14 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .feed__donateTitleDescription {
+    margin-top: 3.5vw;
+    line-height: 125%;
+    font-size: 5vw;
+  }
+}
+
 .feed__daysEat {
   width: 33.3vw;
   margin-top: 3.7vw;
@@ -237,6 +309,13 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .feed__daysEat {
+    width: 93vw;
+    margin-top: 3.8vw;
+  }
+}
+
 .feed__daysContainer {
   margin-top: 3.5vw;
 }
@@ -249,7 +328,7 @@
 
 @media screen and (max-width: 640px) {
   .feed__daysContainer {
-    margin-top: 8.5vw;
+    margin-top: 9.5vw;
   }
 }
 
@@ -271,6 +350,12 @@
 @media screen and (max-width: 640px) {
   .feed__days {
     font-size: 11.25vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feed__days {
+    font-size: 13vw;
   }
 }
 
@@ -297,6 +382,13 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .feed__daysDescription {
+    margin-top: 2.1vw;
+    font-size: 2.81vw;
+  }
+}
+
 .feed__imgMultiply {
   height: 0.88vw;
   width: 0.88vw;
@@ -316,6 +408,14 @@
     height: 2.19vw;
     width: 2.19vw;
     margin: 4vw 10vw 0 1vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feed__imgMultiply {
+    height: 2.6vw;
+    width: 2.6vw;
+    margin: 5vw 10vw 0 1vw;
   }
 }
 
@@ -339,6 +439,14 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .feed__imgAnimal {
+    height: 43.44vw;
+    width: 50.38vw;
+    margin-right: -1vw;
+  }
+}
+
 .feed__switcher {
   margin-top: 3vw;
 }
@@ -352,6 +460,12 @@
 @media screen and (max-width: 640px) {
   .feed__switcher {
     margin-top: 6.2vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feed__switcher {
+    margin-top: 1.2vw;
   }
 }
 
@@ -374,6 +488,13 @@
   .feed__switcherLabel {
     margin-left: 1.7vw;
     font-size: 2.50vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feed__switcherLabel {
+    margin-left: 0vw;
+    font-size: 5vw;
   }
 }
 
@@ -401,6 +522,13 @@
     width: 93.75vw;
     height: 4.3vw;
     margin-top: 1vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feed__switcherBackground {
+    height: 4.3vw;
+    margin-top: 2.5vw;
   }
 }
 
@@ -706,6 +834,18 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .feed__amount {
+    width: 56.25vw;
+    height: 13.13vw;
+    padding-left: 1.6vw;
+    padding-right: 7vw;
+    font-size: 5vw;
+    background-size: 3vw;
+    background-position: 49.7vw;
+  }
+}
+
 .feed__donateTypeContainer {
   width: 13.6vw;
   margin-left: 1.6vw;
@@ -738,6 +878,13 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .feed__donateTypeContainer label {
+    width: 19.5vw;
+    font-size: 5vw;
+  }
+}
+
 .feed__donateTypeContainer p {
   cursor: pointer;
 }
@@ -755,6 +902,14 @@
     width: 28.7vw;
     margin-left: 0.6vw;
     margin-top: 4.9vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feed__donateTypeContainer {
+    width: 61.4vw;
+    margin-left: 7.5vw;
+    margin-top: 7.9vw;
   }
 }
 
@@ -783,6 +938,14 @@
     width: 2.5vw;
     height: 2.5vw;
     right: 7.6vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feed__donateTypeRadio {
+    width: 5vw;
+    height: 5vw;
+    right: 21.6vw;
   }
 }
 
@@ -819,6 +982,14 @@
     height: 2.5vw;
     right: 7.8vw;
     top: 0.3vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .feed__donateType:checked + .feed__donateTypeRadio {
+    width: 5vw;
+    height: 5vw;
+    right: 21.6vw;
   }
 }
 
@@ -882,6 +1053,20 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .feed__btnFeed {
+    width: 93.4vw;
+    height: 16.7vw;
+    margin-top: 8.4vw;
+    border-radius: 7.91vw;
+    -webkit-border-radius: 7.91vw;
+    -moz-border-radius: 7.91vw;
+    -ms-border-radius: 7.91vw;
+    -o-border-radius: 7.91vw;
+    font-size: 5vw;
+  }
+}
+
 .feed__share {
   margin-top: 1.9vw;
   margin-left: 0.2vw;
@@ -905,9 +1090,23 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .feed__share {
+    width: 94vw;
+    margin-top: 9.3vw;
+    font-size: 5vw;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .footer__contactsContainer {
     margin-left: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__donateBtn {
+    margin-right: 2.2vw;
   }
 }
 

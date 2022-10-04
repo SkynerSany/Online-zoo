@@ -1,5 +1,7 @@
 .header {
   height: 5vw;
+	width: 100%;
+	z-index: 3;
 	display: flex;
 	justify-content: center;
   background-color: #000000;
@@ -9,6 +11,7 @@
 	}
 
 	@media screen and (max-width: 640px) {
+		position: fixed;
 		height: 5.31vw;
 	}
 
@@ -88,23 +91,23 @@
 	display: flex;
 	align-items: center;
 
-	ul {
-		width: 29.45vw;
-		display: flex;
-		justify-content: space-between;
-		list-style-type: none;
-
-		@media screen and (max-width: 1000px) {
-			width: 43vw;
-		}
-	}
-
 	@media screen and (max-width: 1000px) {
 		margin-left: 6.35vw;
 	}
-
+	
 	@media screen and (max-width: 640px) {
 		display: none;	
+	}
+}
+
+.header__menu {
+	width: 29.45vw;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+
+	@media screen and (max-width: 1000px) {
+		width: 43vw;
 	}
 }
 
@@ -125,6 +128,86 @@
 	@media screen and (max-width: 1000px) {
 		font-size: 1.6vw;
 	}
+}
+
+.header__burgerMenuBar {
+	width: 100vw;
+	height: 100%;
+	padding: 3vw 3vw 6vw;
+	display: none;
+	flex-direction: column;
+	position: fixed;
+	top: 0;
+	z-index: 5;
+	background-color: #000000;
+}
+
+.header__backDrop {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+	background-color: rgba($color: #000000, $alpha: 0.7);
+}
+
+.header__logoLink {
+	width: 20vw;
+}
+
+.header__burgerLogo {
+	height: 13vw;
+	width: 20vw;
+	position: relative;
+	z-index: 1;
+	border: 0.2vw solid #FE9013;
+	border-radius: 0.5vw;
+	-webkit-border-radius: 0.5vw;
+	-moz-border-radius: 0.5vw;
+	-ms-border-radius: 0.5vw;
+	-o-border-radius: 0.5vw;
+
+	p {
+		color: #FE9013;
+		font-size: 5vw;
+		line-height: 120%;
+		text-align: center;
+	}
+
+	img {
+		height: 5vw;
+    position: absolute;
+    top: 6vw;
+    left: 2.6vw;
+	}
+}
+
+.header__menuList {
+	height: 80vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1;
+	list-style-type: none;
+	
+	.header__navigationLink {
+		@media screen and (max-width: 640px) {
+			font-size: 5vw;
+		}
+	}	
+}
+
+.header__burgerClose {
+	position: absolute;
+	top: 6vw;
+	right: 6vw;
+	color: #ffffff;
+	font-size: 10vw;
+	font-weight: 300;
+	z-index: 1;
+	line-height: 27%;
 }
 
 .header__designedBy {

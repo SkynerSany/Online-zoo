@@ -11,8 +11,17 @@
 	}
 
   @media screen and (max-width: 640px) {
-    height: 52.4vw;
-    background-position: -43vw 0;
+    height: 57.71vw;
+    padding-top: 5.31vw;
+    background-position: -47vw 4vw;
+    background-size: 226vw;
+	}
+  
+  @media screen and (max-width: 320px) {
+    height: 69.03vw;
+    padding-top: 10.63vw;
+    background-position: -53vw 9vw;
+    background-size: 256vw;
 	}
 }
 
@@ -28,6 +37,10 @@
 
   @media screen and (max-width: 640px) {
     height: 208.3vw;
+	}
+
+  @media screen and (max-width: 320px) {
+    height: 358.3vw;
 	}
 }
 
@@ -49,6 +62,10 @@
   @media screen and (max-width: 640px) {
     margin-top: 4.3vw;
 	}
+
+  @media screen and (max-width: 320px) {
+    margin-top: 9vw;
+	}
 }
 
 .feed__title {
@@ -66,6 +83,12 @@
   @media screen and (max-width: 640px) {
     width: 90vw;
     font-size: 3.75vw;
+	}
+  
+  @media screen and (max-width: 320px) {
+    width: 90vw;
+    line-height: 125%;
+    font-size: 7.5vw;
 	}
 }
 
@@ -86,6 +109,12 @@
     line-height: 135%;
     font-size: 2.5vw;
 	}
+
+  @media screen and (max-width: 320px) {
+    margin-top: 6vw;
+    line-height: 137%;
+    font-size: 5vw;
+	}
 }
 
 .feed__donationInfo {
@@ -103,6 +132,11 @@
   @media screen and (max-width: 640px) {
     margin-top: 5vw;
     font-size: 5.63vw;
+	}
+
+  @media screen and (max-width: 320px) {
+    margin-top: 9vw;
+    font-size: 7.5vw;
 	}
 }
 
@@ -131,6 +165,16 @@
     -ms-border-radius: 3.13vw;
     -o-border-radius: 3.13vw;
   }
+
+  @media screen and (max-width: 320px) {
+    height: 184.6vw;
+    margin-top: 9.2vw;
+    border-radius: 6.13vw;
+    -webkit-border-radius: 6.13vw;
+    -moz-border-radius: 6.13vw;
+    -ms-border-radius: 6.13vw;
+    -o-border-radius: 6.13vw;
+}
 }
 
 .feed__donateTitle {
@@ -153,6 +197,10 @@
     padding-right: 0;
     font-size: 7.50vw;
 	}
+
+  @media screen and (max-width: 320px) {
+    margin-top: 6.6vw;
+	}
 }
 
 .feed__donateTitleDescription {
@@ -174,6 +222,12 @@
     font-size: 3.75vw;
     text-align: center;
 	}
+
+  @media screen and (max-width: 320px) {
+    margin-top: 3.5vw;
+    line-height: 125%;
+    font-size: 5vw;
+	}
 }
 
 .feed__daysEat {
@@ -193,6 +247,11 @@
     width: 84.4vw;
     margin-top: 8vw;
 	}
+
+  @media screen and (max-width: 320px) {
+    width: 93vw;
+    margin-top: 3.8vw;
+	}
 }
 
 .feed__daysContainer {
@@ -203,7 +262,7 @@
 	}
 
   @media screen and (max-width: 640px) {
-    margin-top: 8.5vw;
+    margin-top: 9.5vw;
 	}
 }
 
@@ -221,6 +280,10 @@
 
   @media screen and (max-width: 640px) {
     font-size: 11.25vw;
+	}
+
+  @media screen and (max-width: 320px) {
+    font-size: 13vw;
 	}
 }
 
@@ -241,6 +304,11 @@
     margin-top: 1.1vw;
     font-size: 2.5vw;
 	}
+
+  @media screen and (max-width: 320px) {
+    margin-top: 2.1vw;
+    font-size: 2.81vw;
+	}
 }
 
 .feed__imgMultiply {
@@ -259,6 +327,12 @@
     width: 2.19vw;
     margin: 4vw 10vw 0 1vw;
 	}
+
+  @media screen and (max-width: 320px) {
+    height: 2.6vw;
+    width: 2.6vw;
+    margin: 5vw 10vw 0 1vw;
+	}
 }
 
 .feed__imgAnimal {
@@ -275,6 +349,12 @@
     width: 44.38vw;
     margin-right: 1vw;
 	}
+
+  @media screen and (max-width: 320px) {
+    height: 43.44vw;
+    width: 50.38vw;
+    margin-right: -1vw;
+	}
 }
 
 .feed__switcher {
@@ -286,6 +366,10 @@
 
   @media screen and (max-width: 640px) {
     margin-top: 6.2vw;
+	}
+
+  @media screen and (max-width: 320px) {
+    margin-top: 1.2vw;
 	}
 }
 
@@ -304,6 +388,11 @@
   @media screen and (max-width: 640px) {
     margin-left: 1.7vw;
     font-size: 2.50vw;
+	}
+
+  @media screen and (max-width: 320px) {
+    margin-left: 0vw;
+    font-size: 5vw;
 	}
 }
 
@@ -328,6 +417,12 @@
     height: 4.3vw;
     margin-top: 1vw;
   }
+
+  @media screen and (max-width: 320px) {
+    height: 4.3vw;
+    margin-top: 2.5vw;
+  }
+
 }
 
 .feed__switcherContainer {
@@ -618,6 +713,16 @@
     -o-border-radius: 0.16vw;
     background-size: 1.5vw;
   }
+
+  @media screen and (max-width: 320px) {
+    width: 56.25vw;
+    height: 13.13vw;
+    padding-left: 1.6vw;
+    padding-right: 7vw;
+    font-size: 5vw;
+    background-size: 3vw;
+    background-position: 49.7vw;
+  }
 }
 
 .feed__donateTypeContainer {
@@ -645,6 +750,11 @@
       width: 7.25vw;
       font-size: 2.5vw;
     }
+
+    @media screen and (max-width: 320px) {
+      width: 19.5vw;
+      font-size: 5vw;
+    }
   }
 
   p {
@@ -661,6 +771,12 @@
     width: 28.7vw;
     margin-left: 0.6vw;
     margin-top: 4.9vw;
+  }
+
+  @media screen and (max-width: 320px) {
+    width: 61.4vw;
+    margin-left: 7.5vw;
+    margin-top: 7.9vw;
   }
 }
 
@@ -685,6 +801,12 @@
     width: 2.5vw;
     height: 2.5vw;
     right: 7.6vw;
+  }
+
+  @media screen and (max-width: 320px) {
+    width: 5vw;
+    height: 5vw;
+    right: 21.6vw;
   }
 }
 
@@ -717,6 +839,12 @@
         height: 2.5vw;
         right: 7.8vw;
         top: 0.3vw;
+      }
+
+      @media screen and (max-width: 320px) {
+        width: 5vw;
+        height: 5vw;
+        right: 21.6vw;
       }
     }
   }
@@ -776,6 +904,18 @@
 		-o-border-radius: 3.91vw;
 		font-size: 2.5vw;
 	}
+
+  @media screen and (max-width: 320px) {
+    width: 93.4vw;
+    height: 16.7vw;
+		margin-top: 8.4vw;
+    border-radius: 7.91vw;
+    -webkit-border-radius: 7.91vw;
+    -moz-border-radius: 7.91vw;
+    -ms-border-radius: 7.91vw;
+    -o-border-radius: 7.91vw;
+    font-size: 5vw;
+	}
 }
 
 .feed__share {
@@ -795,11 +935,23 @@
     margin-top: 4.7vw;
 		font-size: 2.5vw;
 	}
+
+  @media screen and (max-width: 320px) {
+    width: 94vw;
+    margin-top: 9.3vw;
+    font-size: 5vw;
+	}
 }
 
 .footer__contactsContainer {
   @media screen and (max-width: 1000px) {
     margin-left: 1.2vw;
+	}
+}
+
+.footer__donateBtn {
+	@media screen and (max-width: 320px) {
+		margin-right: 2.2vw;
 	}
 }
 

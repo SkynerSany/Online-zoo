@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../assets/styles/defaultStyles.css">
-  <link rel="stylesheet" href="../../assets/styles/header.css">
-  <link rel="stylesheet" href="../../assets/styles/footer.css">
+  <link rel="stylesheet" href="../../sharing/styles/defaultStyles.css">
+  <link rel="stylesheet" href="../../sharing/styles/header.css">
+  <link rel="stylesheet" href="../../sharing/styles/footer.css">
   <link rel="stylesheet" href="style.css">
   <title>Donate</title>
 </head>
@@ -19,7 +19,7 @@
           <img src="../../assets/icons/logo.png" alt="logo" class="header__logo"><h1 class="header__title">PetStory Online</h1>
         </a>
         <nav class="header__navigationBar">
-          <ul>
+          <ul class="header__menu">
             <li><a class="header__navigationLink" href="../main/index.html">About</a></li>
             <li><a class="header__navigationLink" href="">Map</a></li>
             <li><a class="header__navigationLink" href="">Zoos</a></li>
@@ -31,6 +31,23 @@
       <img src="../../assets/icons/burgerMenu.svg" alt="burgerMenu" class="header__burgerMenu">
       <a class="header__designedBy" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed by ©</a>
     </div>
+    <nav class="header__burgerMenuBar">
+      <a class="header__logoLink" href="./index.html">
+        <div class="header__burgerLogo">
+          <p>PetStory online</p>
+          <img src="../../assets/icons/bambooOrange.svg" alt="bambooOrange">
+        </div>
+      </a>
+      <ul class="header__menuList">
+        <li><a class="header__navigationLink" href="../main/index.html">About</a></li>
+        <li><a class="header__navigationLink" href="">Map</a></li>
+        <li><a class="header__navigationLink" href="">Zoos</a></li>
+        <li><a class="header__navigationLink header__navigationLink-active" href="./index.html">Donate</a></li>
+        <li><a class="header__navigationLink" href="">Contact us</a></li>
+        <li><a class="header__navigationLink" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed by ©</a></li>
+      </ul>
+      <p class="header__burgerClose">&times;</p>
+    </nav>
   </header>
   <main class="main">
     <section class="watch"></section>
@@ -55,10 +72,10 @@
           <div class="feed__switcher">
             <p for="checkbox" class="feed__switcherLabel">Amount</p>
             <div class="feed__switcherBackground">
-              <div class="feed__switcherContainer">
+              <form class="feed__switcherContainer">
                 <div class="feed__radioItem">
                   <label for="radio0">
-                    <input type="radio" name="count" id="radio0" class="feed__switcherCheckbox">
+                    <input type="radio" name="count" data-amount="5000"  id="radio0" class="feed__switcherCheckbox">
                     <div class="feed__radioItemDescription">
                       <span>$</span> 5000
                     </div>
@@ -66,7 +83,7 @@
                 </div>
                 <div class="feed__radioItem">                  
                   <label for="radio1">
-                    <input type="radio" name="count" id="radio1" class="feed__switcherCheckbox">
+                    <input type="radio" name="count" data-amount="2000"  id="radio1" class="feed__switcherCheckbox">
                     <div class="feed__radioItemDescription">
                       <span>$</span> 2000
                     </div>
@@ -74,7 +91,7 @@
                 </div>
                 <div class="feed__radioItem">                  
                   <label for="radio2">
-                    <input type="radio" name="count" id="radio2" class="feed__switcherCheckbox" checked>
+                    <input type="radio" name="count" data-amount="1000"  id="radio2" class="feed__switcherCheckbox">
                     <div class="feed__radioItemDescription">
                       <span>$</span> 1000
                     </div>
@@ -82,7 +99,7 @@
                 </div>
                 <div class="feed__radioItem">              
                   <label for="radio3">
-                    <input type="radio" name="count" id="radio3" class="feed__switcherCheckbox">
+                    <input type="radio" name="count" data-amount="500"  id="radio3" class="feed__switcherCheckbox">
                     <div class="feed__radioItemDescription">
                       <span>$</span> 500
                     </div>
@@ -90,7 +107,7 @@
                 </div>
                 <div class="feed__radioItem">                  
                   <label for="radio4">
-                    <input type="radio" name="count" id="radio4" class="feed__switcherCheckbox">
+                    <input type="radio" name="count" data-amount="250"  id="radio4" class="feed__switcherCheckbox">
                     <div class="feed__radioItemDescription">
                       <span>$</span> 250
                     </div>
@@ -98,7 +115,7 @@
                 </div>
                 <div class="feed__radioItem">                  
                   <label for="radio5">
-                    <input type="radio" name="count" id="radio5" class="feed__switcherCheckbox">
+                    <input type="radio" name="count" data-amount="100"  id="radio5" class="feed__switcherCheckbox" checked>
                     <div class="feed__radioItemDescription">
                       <span>$</span> 100
                     </div>
@@ -106,7 +123,7 @@
                 </div>
                 <div class="feed__radioItem">                  
                   <label for="radio6">
-                    <input type="radio" name="count" id="radio6" class="feed__switcherCheckbox">
+                    <input type="radio" name="count" data-amount="50"  id="radio6" class="feed__switcherCheckbox">
                     <div class="feed__radioItemDescription">
                       <span>$</span> 50
                     </div>
@@ -114,13 +131,13 @@
                 </div>
                 <div class="feed__radioItem">
                   <label for="radio7">
-                    <input type="radio" name="count" id="radio7" class="feed__switcherCheckbox">
+                    <input type="radio" name="count" data-amount="25"  id="radio7" class="feed__switcherCheckbox">
                     <div class="feed__radioItemDescription">
                       <span>$</span> 25
                     </div>
                   </label>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
           <input type="number" min="1" max="9999" name="anotherCount" placeholder="Another amount" id="feed__amount" class="feed__amount">
@@ -203,5 +220,6 @@
       </div>
     </div>
   </footer>
+  <script type="module" src="./js/app.js"></script>
 </body>
 </html>
