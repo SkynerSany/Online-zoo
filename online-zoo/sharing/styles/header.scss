@@ -12,11 +12,11 @@
 
 	@media screen and (max-width: 640px) {
 		position: fixed;
-		height: 5.31vw;
+		height: 10.6vw;
 	}
 
 	@media screen and (max-width: 320px) {
-		height: 10.63vw;
+		height: 16vw;
 	}
 }
 
@@ -38,7 +38,7 @@
 }
 
 .header__logoTablet {
-	height: 4.8vw;
+	height: 9vw;
 	display: none;
 
 	@media screen and (max-width: 640px) {
@@ -46,12 +46,12 @@
 	}
 
 	@media screen and (max-width: 320px) {
-		height: 9.5vw;
+		height: 14vw;
 	}
 }
 
 .header__burgerMenu {
-	height: 1.6vw;
+	height: 3.2vw;
 	margin-bottom: 0.2vw;
 	display: none;
 	cursor: pointer;
@@ -61,7 +61,7 @@
 	}
 
 	@media screen and (max-width: 320px) {
-		height: 3.2vw;
+		height: 5.4vw;
 		margin-bottom: 0.2vw;
 	}
 }
@@ -131,29 +131,38 @@
 }
 
 .header__burgerMenuBar {
-	width: 100vw;
-	height: 100%;
+	width: 100%;
+	height: 110vw;
 	padding: 3vw 3vw 6vw;
-	display: none;
+	display: flex;
 	flex-direction: column;
 	position: fixed;
 	top: 0;
+	right: -100vw;
 	z-index: 5;
 	background-color: #000000;
+	transform: translateX(100vw);
+	transition-duration: 0.5s;
+	-webkit-transform: translateX(100vw);
+	-moz-transform: translateX(100vw);
+	-ms-transform: translateX(100vw);
+	-o-transform: translateX(100vw);
+
+	@media screen and (max-width: 320px) {
+		height: 140vw;
+	}
 }
 
 .header__backDrop {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	display: none;
-	background-color: rgba($color: #000000, $alpha: 0.7);
 }
 
 .header__logoLink {
 	width: 20vw;
+
+	@media screen and (max-width: 320px) {
+		width: 25vw;
+	}
 }
 
 .header__burgerLogo {
@@ -181,6 +190,21 @@
     top: 6vw;
     left: 2.6vw;
 	}
+
+	@media screen and (max-width: 320px) {
+		height: 15vw;
+		width: 25vw;
+
+		p {
+			font-size: 6vw;
+		}
+	
+		img {
+			height: 6vw;
+			top: 7.5vw;
+			left: 3vw;
+		}
+	}
 }
 
 .header__menuList {
@@ -196,7 +220,16 @@
 		@media screen and (max-width: 640px) {
 			font-size: 5vw;
 		}
-	}	
+
+		@media screen and (max-width: 320px) {
+			font-size: 7.5vw;
+		}
+	}
+	
+	@media screen and (max-width: 320px) {
+		height: 100vw;
+    margin-top: 6vw;
+	}
 }
 
 .header__burgerClose {
@@ -208,6 +241,12 @@
 	font-weight: 300;
 	z-index: 1;
 	line-height: 27%;
+
+	@media screen and (max-width: 320px) {
+		top: 6vw;
+		right: 6vw;
+		font-size: 15vw;
+	}
 }
 
 .header__designedBy {
