@@ -16,13 +16,13 @@
 @media screen and (max-width: 640px) {
   .header {
     position: fixed;
-    height: 5.31vw;
+    height: 10.6vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-    height: 10.63vw;
+    height: 16vw;
   }
 }
 
@@ -46,7 +46,7 @@
 }
 
 .header__logoTablet {
-  height: 4.8vw;
+  height: 9vw;
   display: none;
 }
 
@@ -58,12 +58,12 @@
 
 @media screen and (max-width: 320px) {
   .header__logoTablet {
-    height: 9.5vw;
+    height: 14vw;
   }
 }
 
 .header__burgerMenu {
-  height: 1.6vw;
+  height: 3.2vw;
   margin-bottom: 0.2vw;
   display: none;
   cursor: pointer;
@@ -77,7 +77,7 @@
 
 @media screen and (max-width: 320px) {
   .header__burgerMenu {
-    height: 3.2vw;
+    height: 5.4vw;
     margin-bottom: 0.2vw;
   }
 }
@@ -159,29 +159,42 @@
 }
 
 .header__burgerMenuBar {
-  width: 100vw;
-  height: 100%;
+  width: 100%;
+  height: 110vw;
   padding: 3vw 3vw 6vw;
-  display: none;
+  display: flex;
   flex-direction: column;
   position: fixed;
   top: 0;
+  right: -100vw;
   z-index: 5;
   background-color: #000000;
+  transform: translateX(100vw);
+  transition-duration: 0.5s;
+  -webkit-transform: translateX(100vw);
+  -moz-transform: translateX(100vw);
+  -ms-transform: translateX(100vw);
+  -o-transform: translateX(100vw);
+}
+
+@media screen and (max-width: 320px) {
+  .header__burgerMenuBar {
+    height: 140vw;
+  }
 }
 
 .header__backDrop {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   display: none;
-  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .header__logoLink {
   width: 20vw;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logoLink {
+    width: 25vw;
+  }
 }
 
 .header__burgerLogo {
@@ -211,6 +224,21 @@
   left: 2.6vw;
 }
 
+@media screen and (max-width: 320px) {
+  .header__burgerLogo {
+    height: 15vw;
+    width: 25vw;
+  }
+  .header__burgerLogo p {
+    font-size: 6vw;
+  }
+  .header__burgerLogo img {
+    height: 6vw;
+    top: 7.5vw;
+    left: 3vw;
+  }
+}
+
 .header__menuList {
   height: 80vw;
   display: flex;
@@ -227,6 +255,19 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .header__menuList .header__navigationLink {
+    font-size: 7.5vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__menuList {
+    height: 100vw;
+    margin-top: 6vw;
+  }
+}
+
 .header__burgerClose {
   position: absolute;
   top: 6vw;
@@ -236,6 +277,14 @@
   font-weight: 300;
   z-index: 1;
   line-height: 27%;
+}
+
+@media screen and (max-width: 320px) {
+  .header__burgerClose {
+    top: 6vw;
+    right: 6vw;
+    font-size: 15vw;
+  }
 }
 
 .header__designedBy {

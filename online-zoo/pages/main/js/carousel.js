@@ -78,8 +78,9 @@ export default class Carousel {
 
     this.btnNext?.addEventListener('click', () => this.setNextItem());
     this.btnPrev?.addEventListener('click', () => this.setPrevItem());
-    if (this.inputRange) {
-      this.inputRange.addEventListener('input', () => this.setCurrentItem());
+    this.inputRange?.addEventListener('input', () => this.setCurrentItem());
+    
+    if (this.inputRange && windowWidth <= 640) {
       this.slider.addEventListener('touchstart', (e) => this.touchPosition = e.touches[0].pageY);
       this.slider.addEventListener('touchmove', (e) => {e.preventDefault(); this.setCurrentItem(e.touches[0].pageY)});
       this.slider.addEventListener('touchend', (e) => {this.prevPosition += (this.touchPosition - e.changedTouches[0].pageY);});
