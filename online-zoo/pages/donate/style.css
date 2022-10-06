@@ -6,14 +6,14 @@
   background-position: bottom;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .watch {
     height: 39vw;
     background-position: -17vw 0;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .watch {
     height: 57.71vw;
     padding-top: 5.31vw;
@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .watch {
     height: 69.03vw;
     padding-top: 10.63vw;
@@ -38,19 +38,19 @@
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed {
     height: 133.3vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed {
     height: 208.3vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed {
     height: 358.3vw;
   }
@@ -60,7 +60,7 @@
   width: 72.50vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__container {
     width: 94vw;
   }
@@ -70,19 +70,19 @@
   margin-top: 2.6vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__headerBox {
     margin-top: 4vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__headerBox {
     margin-top: 4.3vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__headerBox {
     margin-top: 9vw;
   }
@@ -96,21 +96,21 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__title {
     width: 80vw;
     font-size: 3.6vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__title {
     width: 90vw;
     font-size: 3.75vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__title {
     width: 90vw;
     line-height: 125%;
@@ -126,14 +126,14 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__description {
     margin-top: 3vw;
     font-size: 1.6vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__description {
     margin-top: 3vw;
     line-height: 135%;
@@ -141,7 +141,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__description {
     margin-top: 6vw;
     line-height: 137%;
@@ -157,21 +157,21 @@
   color: #FE9013;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__donationInfo {
     margin-top: 4.6vw;
     font-size: 3.6vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__donationInfo {
     margin-top: 5vw;
     font-size: 5.63vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__donationInfo {
     margin-top: 9vw;
     font-size: 7.5vw;
@@ -189,7 +189,7 @@
   backdrop-filter: blur(2px);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__donateContainer {
     height: 92vw;
     margin-top: 3.7vw;
@@ -197,7 +197,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__donateContainer {
     height: 143.44vw;
     margin-top: 4.7vw;
@@ -209,7 +209,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__donateContainer {
     height: 184.6vw;
     margin-top: 9.2vw;
@@ -231,7 +231,7 @@
   color: #FE9013;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__donateTitle {
     margin-top: 2.2vw;
     padding-right: 1.4vw;
@@ -239,7 +239,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__donateTitle {
     margin-top: 4.6vw;
     padding-right: 0;
@@ -247,7 +247,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__donateTitle {
     margin-top: 6.6vw;
   }
@@ -262,7 +262,7 @@
   color: #333B41;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__donateTitleDescription {
     margin-top: 1.1vw;
     padding-right: 0.4vw;
@@ -270,7 +270,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__donateTitleDescription {
     margin-top: 3.3vw;
     font-size: 3.75vw;
@@ -278,7 +278,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__donateTitleDescription {
     margin-top: 3.5vw;
     line-height: 125%;
@@ -295,21 +295,21 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__daysEat {
     width: 54vw;
     margin-top: 6vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__daysEat {
     width: 84.4vw;
     margin-top: 8vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__daysEat {
     width: 93vw;
     margin-top: 3.8vw;
@@ -320,13 +320,13 @@
   margin-top: 3.5vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__daysContainer {
     margin-top: 5.5vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__daysContainer {
     margin-top: 9.5vw;
   }
@@ -341,19 +341,19 @@
   color: #000000;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__days {
     font-size: 7.2vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__days {
     font-size: 11.25vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__days {
     font-size: 13vw;
   }
@@ -368,21 +368,21 @@
   color: #333B41;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__daysDescription {
     margin-top: 1.1vw;
     font-size: 1.6vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__daysDescription {
     margin-top: 1.1vw;
     font-size: 2.5vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__daysDescription {
     margin-top: 2.1vw;
     font-size: 2.81vw;
@@ -395,7 +395,7 @@
   margin: 1.7vw 4vw 0 0.69vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__imgMultiply {
     height: 1.5vw;
     width: 1.5vw;
@@ -403,7 +403,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__imgMultiply {
     height: 2.19vw;
     width: 2.19vw;
@@ -411,7 +411,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__imgMultiply {
     height: 2.6vw;
     width: 2.6vw;
@@ -424,14 +424,14 @@
   height: 15.38vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__imgAnimal {
     height: 24.6vw;
     width: 30vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__imgAnimal {
     height: 38.44vw;
     width: 44.38vw;
@@ -439,7 +439,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__imgAnimal {
     height: 43.44vw;
     width: 50.38vw;
@@ -451,19 +451,19 @@
   margin-top: 3vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__switcher {
     margin-top: 4.8vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__switcher {
     margin-top: 6.2vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__switcher {
     margin-top: 1.2vw;
   }
@@ -477,21 +477,21 @@
   color: #000000;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__switcherLabel {
     margin-left: 0;
     font-size: 1.6vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__switcherLabel {
     margin-left: 1.7vw;
     font-size: 2.50vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__switcherLabel {
     margin-left: 0vw;
     font-size: 5vw;
@@ -509,7 +509,7 @@
   border-radius: 0.13vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__switcherBackground {
     width: 81.1vw;
     height: 2.7vw;
@@ -517,7 +517,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__switcherBackground {
     width: 93.75vw;
     height: 4.3vw;
@@ -525,7 +525,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__switcherBackground {
     height: 4.3vw;
     margin-top: 2.5vw;
@@ -541,13 +541,13 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__switcherContainer {
     width: 78.5vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__switcherContainer {
     width: 82.5vw;
   }
@@ -592,7 +592,7 @@
   -o-border-radius: 50%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__radioItem label {
     font-size: 2.6vw;
   }
@@ -612,7 +612,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__radioItem label {
     font-size: 4.06vw;
   }
@@ -637,7 +637,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__radioItem {
     width: 1vw;
     height: 1vw;
@@ -647,7 +647,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__radioItem {
     width: 1.56vw;
     height: 1.56vw;
@@ -671,7 +671,7 @@
   font-size: 1.4vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__radioItemDescription {
     margin-top: 3.1vw;
   }
@@ -682,7 +682,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__radioItemDescription {
     margin-top: 4.8vw;
   }
@@ -716,7 +716,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__switcherCheckbox:checked + .feed__radioItemDescription {
     font-size: 2.6vw;
   }
@@ -741,7 +741,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__switcherCheckbox:checked + .feed__radioItemDescription {
     font-size: 4.06vw;
   }
@@ -801,7 +801,7 @@
   appearance: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__amount {
     width: 26.8vw;
     height: 5.4vw;
@@ -819,7 +819,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__amount {
     width: 28.13vw;
     height: 6.56vw;
@@ -834,7 +834,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__amount {
     width: 56.25vw;
     height: 13.13vw;
@@ -865,20 +865,20 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__donateTypeContainer label {
     font-size: 1.6vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__donateTypeContainer label {
     width: 7.25vw;
     font-size: 2.5vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__donateTypeContainer label {
     width: 19.5vw;
     font-size: 5vw;
@@ -889,7 +889,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__donateTypeContainer {
     width: 18.7vw;
     margin-left: 0.6vw;
@@ -897,7 +897,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__donateTypeContainer {
     width: 28.7vw;
     margin-left: 0.6vw;
@@ -905,7 +905,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__donateTypeContainer {
     width: 61.4vw;
     margin-left: 7.5vw;
@@ -925,7 +925,7 @@
   transition-duration: 300ms;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__donateTypeRadio {
     width: 1.6vw;
     height: 1.6vw;
@@ -933,7 +933,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__donateTypeRadio {
     width: 2.5vw;
     height: 2.5vw;
@@ -941,7 +941,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__donateTypeRadio {
     width: 5vw;
     height: 5vw;
@@ -968,7 +968,7 @@
   top: 0.15vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__donateType:checked + .feed__donateTypeRadio {
     width: 1.6vw;
     height: 1.6vw;
@@ -976,7 +976,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__donateType:checked + .feed__donateTypeRadio {
     width: 2.5vw;
     height: 2.5vw;
@@ -985,7 +985,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__donateType:checked + .feed__donateTypeRadio {
     width: 5vw;
     height: 5vw;
@@ -1022,7 +1022,7 @@
   background: #767474;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__btnFeed {
     width: 29.8vw;
     height: 5.4vw;
@@ -1038,7 +1038,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__btnFeed {
     width: 46.56vw;
     height: 8.44vw;
@@ -1053,7 +1053,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__btnFeed {
     width: 93.4vw;
     height: 16.7vw;
@@ -1076,21 +1076,21 @@
   color: #333B41;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .feed__share {
     margin-top: 3vw;
     font-size: 1.6vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .feed__share {
     margin-top: 4.7vw;
     font-size: 2.5vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .feed__share {
     width: 94vw;
     margin-top: 9.3vw;
@@ -1098,37 +1098,37 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__contactsContainer {
     margin-left: 1.2vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__donateBtn {
     margin-right: 2.2vw;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__navigationContainer {
     margin: 0 -10.9vw 1.3vw -0.7vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__navigationContainer {
     margin: 0;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__subscribe {
     margin-right: 4.5vw;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__design {
     margin-right: 1.3vw;
   }
