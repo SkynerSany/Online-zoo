@@ -5,19 +5,19 @@
   background-color: #111115;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer {
     height: 44.3vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer {
     position: relative;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer {
     height: 104.3vw;
   }
@@ -31,7 +31,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__container {
     width: 96.3vw;
     height: 36.5vw;
@@ -39,7 +39,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__container {
     width: 96.3vw;
     height: 41vw;
@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__container {
     height: 80vw;
     margin-top: 6.2vw;
@@ -61,19 +61,19 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__contactsContainer {
     margin-left: 2.4vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__contactsContainer {
     margin-left: 1.4vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__contactsContainer {
     margin-left: 0;
     align-items: center;
@@ -84,19 +84,19 @@
   width: 5.17vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__logoLink {
     width: 8.2vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__logoLink {
     width: 12.81vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__logoLink {
     width: 40.81vw;
     position: relative;
@@ -109,21 +109,21 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__logo {
     width: 8.2vw;
     height: 5.2vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__logo {
     width: 12.81vw;
     height: 8.13vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__logo {
     display: none;
   }
@@ -133,7 +133,7 @@
   display: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__logoMobile {
     display: block;
     font-size: 5.94vw;
@@ -149,7 +149,7 @@
   display: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__logoBamboo {
     display: block;
   }
@@ -159,19 +159,19 @@
   margin-top: 4.02vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__donateBtn {
     margin-top: 6.4vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__donateBtn {
     margin-top: 4.1vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__donateBtn {
     margin-top: 26.9vw;
   }
@@ -203,7 +203,7 @@
   background: #767474;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__donate {
     width: 29.8vw;
     height: 5.4vw;
@@ -217,7 +217,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__donate {
     width: 46.56vw;
     height: 8.44vw;
@@ -230,7 +230,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__donate {
     width: 93vw;
     height: 16.7vw;
@@ -254,14 +254,14 @@
   list-style-type: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__socialBox {
     height: 13.4vw;
     margin-top: 4.4vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__socialBox {
     height: 25.5vw;
     margin: 0;
@@ -271,7 +271,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__socialBox {
     height: 8.5vw;
     width: 61vw;
@@ -301,19 +301,19 @@
   color: #4B9200;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__socialLinkContainer {
     width: 14vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__socialLinkContainer {
     width: 4.06vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__socialLinkContainer {
     width: 8.5vw;
   }
@@ -347,7 +347,7 @@
   background-image: url(../../assets/icons/footer/youtube.svg);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__socialIcon {
     width: 2.63vw;
     height: 2.63vw;
@@ -359,7 +359,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__socialIcon {
     width: 4.06vw;
     height: 4.06vw;
@@ -370,7 +370,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__socialIcon {
     width: 8.13vw;
     height: 8.13vw;
@@ -390,14 +390,14 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__socialName {
     margin-left: 1.3vw;
     font-size: 1.6vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__socialName {
     display: none;
   }
@@ -411,14 +411,14 @@
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__navigationContainer {
     width: 33.2vw;
     margin: 0 -7.9vw 1.3vw -0.7vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__navigationContainer {
     width: 46.7vw;
     margin: 0;
@@ -428,7 +428,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__navigationContainer {
     width: 87vw;
     bottom: 6.1vw;
@@ -457,19 +457,19 @@
   color: #F9804B;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__pageLink {
     font-size: 1.6vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__pageLink {
     font-size: 2.5vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__pageLink {
     font-size: 5vw;
   }
@@ -482,19 +482,19 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__subscribeContainer {
     justify-content: flex-end;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__subscribe {
     margin-right: 3.2vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__subscribe {
     display: none;
   }
@@ -507,7 +507,7 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__subscribeLabel {
     font-size: 2.4vw;
   }
@@ -528,7 +528,7 @@
   border: 0.06vw solid #D31414;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__form {
     margin-top: 1.3vw;
   }
@@ -560,7 +560,7 @@
   border: 0.06vw solid #D31414;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__subscribeInput {
     height: 4.2vw;
     width: 22.8vw;
@@ -592,7 +592,7 @@
   color: #4B9200 !important;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__btnSubmit {
     height: 4.2vw;
     width: 12.9vw;
@@ -620,32 +620,32 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__design p {
     margin-top: 1vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__design p {
     margin-top: 1.5vw;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__design p {
     margin-top: 3.6vw;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   .footer__design {
     margin-bottom: 1.2vw;
     font-size: 1.6vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1000px) {
   .footer__design {
     margin-bottom: 0.8vw;
     margin-right: 1.1vw;
@@ -653,7 +653,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .footer__design {
     margin-bottom: 3.9vw;
     margin-right: 0;

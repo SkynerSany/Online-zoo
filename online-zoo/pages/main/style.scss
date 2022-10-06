@@ -7,17 +7,17 @@
 	background-repeat: no-repeat;
 	background-position: bottom;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 50.4vw;
 		background-size: 120vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 58.21vw;
 		padding-top: 5.31vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 69.13vw;
 		padding-top: 10.63vw;
 	}
@@ -29,11 +29,11 @@
 	flex-direction: column;
 	align-items: flex-end;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 81.8vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 94.4vw;
 	}
 }
@@ -44,19 +44,19 @@
 	margin-top: 0.75vw;
 	z-index: 1;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 45.3vw;
     height: 37.45vw;
     margin-top: -1.15vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 45.3vw;
     height: 37.8vw;
     margin-top: 1.8vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		width: 46.3vw;
     height: 38vw;
     margin-top: 7vw;
@@ -91,7 +91,7 @@
 		background: #767474;
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 29.8vw;
 		height: 5.4vw;
 		margin-top: 3.9vw;
@@ -102,7 +102,7 @@
 		font-size: 1.54vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 46.56vw;
 		height: 8.44vw;
 		margin-top: -1.1vw;
@@ -116,7 +116,7 @@
 		font-size: 2.5vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
     width: 93.4vw;
     height: 16.7vw;
     padding-left: 5vw;
@@ -143,12 +143,12 @@
 	background-position-y: 0.6vw;
 	background-size: 12.85vw;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 63.69vw;
 		background: none;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 70vw;
 		background-image: url(../../assets/images/main/backstage/backstageBackground.png);
 		background-repeat: no-repeat;
@@ -157,7 +157,7 @@
     background-size: 24.9vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 154vw;
     background-position-x: 90vw;
     background-position-y: 12vw;
@@ -171,17 +171,17 @@
 	display: flex;
 	justify-content: space-between;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 94.1vw;
 		height: 43.7vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 93.8vw;
 		height: 51vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		width: 93.8vw;
 		height: 153.5vw;
 	}
@@ -195,13 +195,13 @@
 	background-size: cover;
 	background-position: center;
 	
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 45.5vw;
 		height: 40.8vw;
 		margin-top: 1vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		display: none;
 	}
 }
@@ -211,15 +211,15 @@
 	color: #333B41;
 	font-weight: 400;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 45.4vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 75.4vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		width: 92.4vw;
 		margin-top: 32.5vw;
 	}
@@ -230,16 +230,16 @@
 	font-weight: 400;
 	line-height: 120%;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		font-size: 4.8vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		margin-left: 0.6vw;
 		font-size: 7.5vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		margin-left: 0vw;
 		font-size: 7.5vw;
 	}
@@ -250,17 +250,17 @@
 	font-size: 1vw;
 	line-height: 130%;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		margin-top: 2.2vw;
 		font-size: 1.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		margin-top: 3.4vw;
 		font-size: 2.50vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		margin-top: 3.4vw;
 		margin-left: 0.5vw;
 		font-size: 5vw;
@@ -273,18 +273,18 @@
 	font-weight: 400;
 	line-height: 120%;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		margin-top: 5.38vw;
 		font-size: 2.4vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		margin-top: 4.7vw;
     margin-left: 0.6vw;
 		font-size: 3.75vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		margin-top: 6.2vw;
 		font-size: 7.5vw;
 	}
@@ -295,17 +295,17 @@
 	font-size: 1vw;
 	line-height: 140%;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		margin-top: 3.32vw;
 		font-size: 1.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		margin-top: 3vw;
 		font-size: 2.50vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		margin-top: 2.55vw;
 		font-size: 5vw;
 	}
@@ -320,20 +320,20 @@
 	background-repeat: no-repeat;
 	background-position: bottom left, bottom right;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
     height: 110.7vw;
 		background-image: url(../../assets/images/main/pets/backgroundPalmSmall.png), url(../../assets/images/main/pets/backgroundStrelitzia.png);
 		background-size: 19.5vw, 24vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
     height: 161vw;
     background-image: url(../../assets/images/main/pets/backgroundPalmSmall.png), url(../../assets/images/main/pets/backgroundStrelitzia.png);
 		background-position: -9.4vw 129.4vw, bottom right;
     background-size: 30.5vw, 27vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 487.8vw;
     background-position: -4.4vw 465vw, 78.6vw 468vw;
     background-size: 22.5vw, 27vw;
@@ -346,17 +346,17 @@
 	justify-content: center;
 	align-items: center;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 96.1vw;
     height: 89.7vw;
 		position: relative;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 144.7vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 450.5vw;
 	}
 }
@@ -382,7 +382,7 @@
 		background: #4B9200;
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 6.20vw;
 		width: 6.20vw;
     position: absolute;
@@ -397,7 +397,7 @@
 		}
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 9.69vw;
 		width: 9.69vw;
     position: absolute;
@@ -412,7 +412,7 @@
 		}
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		display: none;
 	}
 }
@@ -421,11 +421,11 @@
 	height: 0.7vw;
 	cursor: pointer;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 1vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 1.5vw;
 	}
 }
@@ -446,18 +446,18 @@
 	will-change: transform;
 	position: relative;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 96.6vw;
     height: 90vw;
     margin: 6vw 0 0 0;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 135vw;
 		margin: 6.5vw 0 0 0;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 437.5vw;
 		margin: 9vw 0 0 0;
 	}
@@ -472,20 +472,20 @@
 	grid-gap: 5vw 1.8vw;
 	grid-auto-flow: column;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
     width: 94.1vw;
     height: 89.5vw;
 		grid-template-rows: repeat(2, 35.4vw);
 		grid-gap: 9.4vw 2.8vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 132.5vw;
 		grid-template-rows: repeat(2, 44.7vw);
 		grid-gap: 21.5vw 4.7vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 435vw;
 		grid-template-rows: repeat(4, 89.3vw);
 		grid-gap: 20.6vw 6.8vw;
@@ -496,15 +496,15 @@
 	height: 26.63vw;
 	margin-bottom: 1.25vw;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
     height: 35.4vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
     height: 51.88vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
     height: 103.75vw;
 	}
 }
@@ -538,7 +538,7 @@
 			transform: scale(1.03);
 		}
 
-		@media screen and (max-width: 1000px) {
+		@media screen and (max-width: 1600px) {
 			height: 29.5vw;
 
 			.pets__itemInfo {
@@ -546,7 +546,7 @@
 			}
 		}
 
-		@media screen and (max-width: 640px) {
+		@media screen and (max-width: 1000px) {
 			height: 44.7vw;
 
 			.pets__itemInfo {
@@ -554,7 +554,7 @@
 			}
 		}
 
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 640px) {
 			height: 89.3vw;
 			border-radius: 1.31vw;
 
@@ -564,17 +564,17 @@
 		}
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
     width: 29.5vw;
 		height: 35.4vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
     width: 44.7vw;
 		height: 51.88vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		width: 89.19vw;
     height: 103.75vw;
 		border-radius: 1.31vw;
@@ -588,17 +588,17 @@
 	border-radius: 0.31vw;
 	transition-duration: 300ms;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
     width: 29.3vw;
 		height: 29.3vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
     width: 44.4vw;
 		height: 44.3vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		width: 88.7vw;
 		height: 88.7vw;
 		border-radius: 1.31vw;
@@ -617,15 +617,15 @@
 	align-items: center;
 	z-index: 1;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 7vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 15vw;
 	}
 }
@@ -633,15 +633,15 @@
 .pets__itemText {
 	margin-left: 0.9vw;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		margin-left: 1.5vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		margin-left: 1.9vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		margin-left: 3.8vw;
 	}
 }
@@ -653,17 +653,17 @@
 	line-height: 140%;
 	text-transform: uppercase;
 	
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
     width: 22.38vw;
 		font-size: 1.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
     width: 36vw;
 		font-size: 2vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
     width: 72.3vw;
     font-size: 4vw;
 	}
@@ -675,17 +675,17 @@
 	font-size: 0.94vw;
 	line-height: 120%;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 22.38vw;
 		font-size: 1.5vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
     width: 22.38vw;
 		font-size: 1.8vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
     width: 70vw;
 		font-size: 3.6vw;
 	}
@@ -695,17 +695,17 @@
 	width: 3.19vw;
 	height: 2.38vw;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 4.6vw;
     height: 3.8vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 5.6vw;
     height: 4.8vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		width: 10.2vw;
     height: 9.6vw;
 	}
@@ -738,7 +738,7 @@
 		background: #767474;
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 29.8vw;
 		height: 5.4vw;
 		margin-top: 1.6vw;
@@ -748,7 +748,7 @@
 		font-size: 1.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 46.56vw;
 		height: 8.44vw;
 		margin-top: -8.1vw;
@@ -762,7 +762,7 @@
 		font-size: 2.5vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
     width: 93.4vw;
     height: 16.7vw;
 		margin-top: 1.8vw;
@@ -783,15 +783,15 @@
 	background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
 	opacity: 0.9;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 87.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 121.9vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 338.2vw;
 	}
 }
@@ -807,12 +807,12 @@
 	backdrop-filter: blur(2px);
 	border-radius: 1.25vw;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 79.6vw;
     width: 94vw;
 	}
 	
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 115.7vw;
 		width: 100vw;
 		margin: 0;
@@ -823,7 +823,7 @@
 		-o-border-radius: 3.13vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
     height: 325.7vw;
     width: 94vw;
     margin: 0;
@@ -839,19 +839,19 @@
 	margin-top: 2.55vw;
   margin-left: 2.3vw;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 89vw;
 		margin-top: 3vw;
     margin-left: 4.95vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 95vw;
     margin-top: 1.3vw;
     margin-left: 1vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		width: 93vw;
 		margin-top: 6.5vw;
 	}
@@ -865,17 +865,17 @@
 	text-align: center;
 	color: #FE9013;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		margin-right: 5vw;
 		font-size: 4.8vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		margin-right: 1vw;
 		font-size: 6.56vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		margin-right: 1vw;
 		font-size: 7.50vw;
 	}
@@ -888,16 +888,16 @@
 	line-height: 120%;
 	color: #333B41;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		font-size: 2.4vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		margin-top: 3.4vw;
 		font-size: 3.44vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		margin-top: 3.4vw;
     margin-left: -2vw;
     font-size: 5.63vw;
@@ -912,19 +912,19 @@
 	line-height: 130%;
 	color: #333B41;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 80vw;
 		margin-top: 2.1vw;
 		font-size: 1.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 94vw;
     margin-top: 3.1vw;
 		font-size: 2.5vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		display: none;
 	}
 }
@@ -948,19 +948,19 @@
 		}
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 79.94vw;
 		margin-top: 1.2vw;
 		font-size: 1.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 92.94vw;
     margin-top: 1.7vw;
 		font-size: 2.5vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		display: none;
 	}
 }
@@ -971,16 +971,16 @@
 	flex-direction: column;
 	align-items: center;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		margin-top: 3.9vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		margin-top: 4.7vw;
 		position: relative;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		margin-top: 5.9vw;
 	}
 }
@@ -991,15 +991,15 @@
 	line-height: 130%;
 	color: #333B41;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		font-size: 3.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		font-size: 5.63vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		font-size: 7.50vw;
 	}
 }
@@ -1010,18 +1010,18 @@
 	display: flex;
 	justify-content: space-between;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		margin-top: 3.9vw;
     width: 76.4vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
     width: 91.78vw;
 		margin-top: 3vw;
     margin-right: 2vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
     width: 91.78vw;
     height: 226.2vw;
     margin-top: 5.8vw;
@@ -1035,17 +1035,17 @@
 	width: 10.50vw;
 	height: 15.25vw;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 16.8vw;
 		height: 24.4vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 26.25vw;
 		height: 38.13vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		width: 52.5vw;
 		height: 72.19vw;
 	}
@@ -1063,17 +1063,17 @@
     linear-gradient(#ffffff,#ffffff) padding-box,
     linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%) border-box;
 	
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 16.8vw;
 		height: 16.8vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 26.25vw;
 		height: 26.25vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		width: 52.5vw;
 		height: 52.5vw;
 		border-radius: 1.31vw;
@@ -1087,15 +1087,15 @@
 .friend__roadItemImgPay {
 	height: 3.75vw;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 9.6vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 18.6vw;
 	}
 }
@@ -1104,15 +1104,15 @@
 	height: 6vw;
 	margin-top: 0.1vw;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 9.7vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 15vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 30vw;
 	}
 }
@@ -1120,15 +1120,15 @@
 .friend__roadItemImgMonkey {
 	height: 4.5vw;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 7.3vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 11.4vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 22.4vw;
 	}
 }
@@ -1141,19 +1141,19 @@
 	line-height: 140%;
 	color: #333B41;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 17.5vw;
 		margin-top: 3vw;
 		font-size: 1.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 26.5vw;
     margin-top: 4.7vw;
 		font-size: 2.5vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		width: 50vw;
     margin-top: 3.2vw;
 		font-size: 5vw;
@@ -1163,7 +1163,7 @@
 .friend__roadArrowTablet {
 	display: none;
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 14vw;
 		position: absolute;
     top: 7.9vw;
@@ -1175,7 +1175,7 @@
 		}
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		width: 28vw;
     top: 75.5vw;
     left: 63.3vw;
@@ -1196,7 +1196,7 @@
 		margin-top: 3.6vw;
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		margin-top: 6vw;
     height: 3.7vw;
 
@@ -1205,7 +1205,7 @@
 		}
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		display: none;
 	}
 }
@@ -1237,7 +1237,7 @@
 		background: #767474;
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 29.8vw;
 		height: 5.4vw;
 		margin-top: 7vw;
@@ -1247,7 +1247,7 @@
 		font-size: 1.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 46.56vw;
 		height: 8.44vw;
 		margin-top: 6.2vw;
@@ -1261,7 +1261,7 @@
 		font-size: 2.5vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
     width: 93.4vw;
     height: 16.7vw;
 		margin-top: 9.6vw;
@@ -1285,20 +1285,20 @@
 	background-size: 15.45vw;
 	background-repeat: no-repeat;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 84.2vw;
 		background-position-y: 60.4vw;
     background-size: 19.45vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 104.3vw;
     background-position-y: 83.4vw;
     background-position-x: 82vw;
     background-size: 19vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 181.3vw;
     background-position-y: 160.4vw;
     background-position-x: 82vw;
@@ -1312,17 +1312,17 @@
 	display: flex;
 	flex-direction: column;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 93.8vw;
     height: 63.9vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 93.8vw;
     height: 85.4vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
     height: 163.4vw;
 	}
 }
@@ -1334,15 +1334,15 @@
 	text-align: center;
 	color: #333B41;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		font-size: 3.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		font-size: 5.63vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		font-size: 7.50vw;
 	}
 }
@@ -1350,11 +1350,11 @@
 .testimonials__border {
 	overflow: hidden;
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 62vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 121vw;
 	}
 }
@@ -1369,14 +1369,14 @@
   will-change: transform;
 	
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 94vw;
 		margin-top: 2.8vw;
 		grid-template-columns: repeat(11, 29.3vw);
 		grid-column-gap: 2.88vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 94vw;
 		margin-top: 4.7vw;
 		grid-template-columns: 93.75vw;
@@ -1384,7 +1384,7 @@
 		grid-gap: 2.2vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		margin-top: 6vw;
 		grid-template-rows: repeat(11, 34.06vw);
 		grid-gap: 4.6vw;
@@ -1401,21 +1401,21 @@
     linear-gradient(#F1F3F2,#F1F3F2) padding-box,
     linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%) border-box;
 	
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 29.3vw;
 		height: 39.1vw;
 		padding: 1.4vw 1.8vw 1.19vw 1.35vw;
 		border-radius: 2vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 93.75vw;
 		height: 17.03vw;
 		padding: 1.9vw 1.8vw 1.19vw 1.7vw;
 		border-radius: 2vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 34.06vw;
 		padding: 2.9vw 1.8vw 3.19vw 3.7vw;
 		border-radius: 7vw;
@@ -1431,17 +1431,17 @@
 	height: 2.31vw;
 	border-radius: 3vw;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 3.7vw;
 		height: 3.7vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 5.78vw;
 		height: 5.78vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		width: 11.56vw;
 		height: 11.56vw;
 	}
@@ -1451,11 +1451,11 @@
 	margin-left: 0.63vw;
 	text-transform: capitalize;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		margin-left: 0.95vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		margin-left: 1.6vw;
 	}
 }
@@ -1466,15 +1466,15 @@
 	line-height: 120%;
 	color: #000000;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		font-size: 1.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		font-size: 2.50vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		font-size: 5vw;
 	}
 }
@@ -1486,16 +1486,16 @@
 	line-height: 120%;
 	color: #BDBDBD;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		font-size: 1.5vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		margin-top: 0.3vw;
 		font-size: 2.34vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		font-size: 4.69vw;
 	}
 }
@@ -1504,15 +1504,15 @@
 	width: 0.31vw;
 	margin: 0 0.4vw;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		margin: 0 0.8vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		margin: 0 1vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		margin: 0 2.5vw;
 	}
 }
@@ -1526,13 +1526,13 @@
 	color: #767474;
 	overflow: hidden;
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 29vw;
     margin-top: 1vw;
 		font-size: 1.5vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		height: 5vw;
     width: 87vw;
     margin-top: 2vw;
@@ -1540,7 +1540,7 @@
     font-size: 2.34vw;
 	}
 	
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
 		height: 12vw;
     width: 87vw;
     margin-top: 3.4vw;
@@ -1569,7 +1569,7 @@
     appearance: none;
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		height: 0.8vw;
 		width: 39vw;
 		margin-top: 2.1vw;
@@ -1583,7 +1583,7 @@
 		}
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		display: none;
 	}
 }
@@ -1614,7 +1614,7 @@
 		background: #767474;
 	}
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 1600px) {
 		width: 29.8vw;
 		height: 5.4vw;
 		margin-top: 5.2vw;
@@ -1624,7 +1624,7 @@
 		font-size: 1.6vw;
 	}
 
-	@media screen and (max-width: 640px) {
+	@media screen and (max-width: 1000px) {
 		width: 37.5vw;
     height: 8.44vw;
 		margin: 4.2vw 0 0 28vw;
@@ -1638,7 +1638,7 @@
 		font-size: 2.5vw;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 640px) {
     width: 75vw;
     height: 16.7vw;
     margin-top: 5vw;
@@ -1653,9 +1653,9 @@
 }
 
 .popup__container {
-	height: 54vh;
+	height: 75vh;
 	width: 55vw;
-	top: 23vh;
+	top: 13vh;
 	left: 22.5vw;
 	display: flex;
 	justify-content: center;
@@ -1664,11 +1664,11 @@
 	overflow: hidden;
 	z-index: 5;
 
-	@media screen and (max-width: 320px) {
-		height: 54vh;
-		width: 90vw;
-		top: 23vh;
-		left: 5vw;
+	@media screen and (max-width: 640px) {
+		height: 99vw;
+    width: 81vw;
+    top: 15vh;
+    left: 8vw;
 	}
 
 	.popup__close {
@@ -1679,7 +1679,7 @@
     color: #FE9013;
     line-height: 4vw;
 
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 640px) {
 			font-size: 12vw;
 			line-height: 6vw;
 		}
@@ -1687,13 +1687,13 @@
 
 	.testimonials__review {
     width: 41.72vw;
-		height: 44.09vh;
+    height: 53vw;
 		padding: 1.6vw 1.6vw 2.4vw 1.7vw;
 
 	
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 640px) {
 			width: 66.72vw;
-			height: 44.09vh;
+			height: 83vw;
 		}
 	}
 	
@@ -1702,7 +1702,7 @@
 		height: 5.78vw;
 		border-radius: 6vw;
 	
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 640px) {
 			width: 11.56vw;
 			height: 11.56vw;
 		}
@@ -1711,7 +1711,7 @@
 	.testimonials__personeInfo {
 		margin-left: 1.26vw;
 	
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 640px) {
 			margin-left: 1.6vw;
 		}
 	}
@@ -1719,7 +1719,7 @@
 	.testimonials__personeName {
 		font-size: 2.50vw;
 	
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 640px) {
 			font-size: 5vw;
 		}
 	}
@@ -1727,7 +1727,7 @@
 	.testimonials__personeLocation {
 		font-size: 2.34vw;
 	
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 640px) {
 			font-size: 4.69vw;
 		}
 	}
@@ -1736,13 +1736,13 @@
 		width: 0.62vw;
 		margin: 0 0.8vw;
 	
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 640px) {
 			margin: 0 2.5vw;
 		}
 	}
 	
 	.testimonials__text {
-		height: 35vh;
+		height: 42vw;
     width: 37vw;
 		margin-top: 1.3vw;
 		font-size: 2.34vw;
@@ -1752,9 +1752,9 @@
 			width: 34vw;
 		}
 
-		@media screen and (max-width: 320px) {
-			height: 35vh;
-			width: 60vw;
+		@media screen and (max-width: 640px) {
+			height: 63vw;
+    	width: 60vw;
 			font-size: 4vw;
 
 			p {
