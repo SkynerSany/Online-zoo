@@ -33,7 +33,7 @@ export default class testimonialsPopup {
   }
 
   setEvents() {
-    if (document.documentElement.clientWidth <= 1000) {
+    if (document.documentElement.clientWidth <= 640) {
       const reviewsContainer = document.querySelector('.testimonials__reviewsContainer');
       
       reviewsContainer.addEventListener("click", (e) => this.openPopup(e));

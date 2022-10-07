@@ -7,20 +7,20 @@
   background-color: #000000;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1000px) {
   .header {
     height: 8vw;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
   .header {
     position: fixed;
     height: 10.6vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
   .header {
     height: 16vw;
   }
@@ -35,7 +35,7 @@
   z-index: 2;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1000px) {
   .header__container {
     width: 94vw;
   }
@@ -50,13 +50,13 @@
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
   .header__logoTablet {
     display: block;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
   .header__logoTablet {
     height: 14vw;
   }
@@ -69,13 +69,13 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
   .header__burgerMenu {
     display: block;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
   .header__burgerMenu {
     height: 5.4vw;
     margin-bottom: 0.2vw;
@@ -89,14 +89,14 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1000px) {
   .header__logo {
     height: 5.20vw;
     width: 8.20vw;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
   .header__logo {
     display: none;
   }
@@ -112,13 +112,13 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1000px) {
   .header__navigationBar {
     margin-left: 6.35vw;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
   .header__navigationBar {
     display: none;
   }
@@ -131,7 +131,7 @@
   list-style-type: none;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1000px) {
   .header__menu {
     width: 43vw;
   }
@@ -152,7 +152,7 @@
   color: #F9804B;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1000px) {
   .header__navigationLink {
     font-size: 1.6vw;
   }
@@ -177,7 +177,7 @@
   -o-transform: translateX(100vw);
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
   .header__burgerMenuBar {
     height: 140vw;
   }
@@ -191,7 +191,7 @@
   width: 20vw;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
   .header__logoLink {
     width: 25vw;
   }
@@ -224,7 +224,7 @@
   left: 2.6vw;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
   .header__burgerLogo {
     height: 15vw;
     width: 25vw;
@@ -249,19 +249,19 @@
   list-style-type: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
   .header__menuList .header__navigationLink {
     font-size: 5vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
   .header__menuList .header__navigationLink {
     font-size: 7.5vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
   .header__menuList {
     height: 100vw;
     margin-top: 6vw;
@@ -279,7 +279,7 @@
   line-height: 27%;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
   .header__burgerClose {
     top: 6vw;
     right: 6vw;
@@ -298,13 +298,13 @@
   color: #F9804B;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1000px) {
   .header__designedBy {
     font-size: 1.6vw;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
   .header__designedBy {
     display: none;
   }
