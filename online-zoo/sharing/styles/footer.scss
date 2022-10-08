@@ -82,42 +82,71 @@
 .footer__logo {
 	width: 5.17vw;
 	height: 3.3vw;
-	cursor: pointer;
+	position: relative;
+	border: 0.1vw solid #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	p {
+		color: #ffffff;
+    font-size: 1.19vw;
+    line-height: 120%;
+    text-align: center;
+    font-weight: 400;
+	}
+
+	img {
+		height: 1.25vw;
+    position: absolute;
+    top: 1.5vw;
+    left: 0.6vw;
+	}
 
 	@media screen and (max-width: 1000px) {
 		width: 8.2vw;
 		height: 5.2vw;
+
+		p {
+			font-size: 1.9vw;
+		}
+	
+		img {
+			height: 2vw;
+			top: 2.2vw;
+			left: 1vw;
+		}
 	}
 
 	@media screen and (max-width: 640px) {
 		width: 12.81vw;
 		height: 8.13vw;
-	}
 
-	@media screen and (max-width: 320px) {
-		display: none;
-	}
-}
-
-.footer__logoMobile {
-	display: none;
-
-	@media screen and (max-width: 320px) {
-		display: block;
-		font-size: 5.94vw;
-		color: #ffffff;
-	}
-}
-
-.footer__logoBamboo {
-	height: 6.56vw;
-	position: absolute;
-	bottom: 1.5vw;
-	right: 14.6vw;
-	display: none;
+		p {
+			font-size: 3vw;
+		}
 	
+		img {
+			height: 3vw;
+			top: 3.2vw;
+			left: 2vw;
+		}
+	}
+
 	@media screen and (max-width: 320px) {
-		display: block;
+		height: 7.1vw;
+    width: 40.8vw;
+		border: none;
+
+		p {
+			font-size: 5.94vw;
+		}
+	
+		img {
+			height: 5.5vw;
+			top: 0vw;
+			left: 23.5vw;
+		}
 	}
 }
 
