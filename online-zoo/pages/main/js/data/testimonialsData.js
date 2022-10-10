@@ -63,6 +63,30 @@ const itemsData = [
     testimonials__date: 'Today',
     testimonials__reviewText: 'Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.'
   },
+  {
+    testimonials__personeName: 'Viander Forten',
+    testimonials__personeImg: '../../assets/icons/main/testimonials/user3.png',
+    testimonials__location: 'China',
+    testimonials__separator: '../../assets/icons/main/testimonials/separator.svg',
+    testimonials__date: 'Today',
+    testimonials__reviewText: 'Love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.'
+  },
+  {
+    testimonials__personeName: 'Carlos Manteky',
+    testimonials__personeImg: '../../assets/icons/main/testimonials/defaultUserIcon.svg',
+    testimonials__location: 'America',
+    testimonials__separator: '../../assets/icons/main/testimonials/separator.svg',
+    testimonials__date: 'Today',
+    testimonials__reviewText: 'The ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.'
+  },
+  {
+    testimonials__personeName: 'Veronika Lecho',
+    testimonials__personeImg: '../../assets/icons/main/testimonials/user2.png',
+    testimonials__location: 'Russia',
+    testimonials__separator: '../../assets/icons/main/testimonials/separator.svg',
+    testimonials__date: 'Today',
+    testimonials__reviewText: 'Online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.'
+  },
 ];
 
 const item = [

@@ -5,6 +5,20 @@ export default class CreateDomElement {
     this.parent = parent;
   }
 
+  typeCount = {
+    count: 0,
+
+    popup() {
+      return this.count
+    },
+
+    testimonials() {
+      return this.count++
+    },
+
+    slider: (i) => i,
+  }
+
   createItem(item) {
     const tag = document.createElement(item.tag);
     
@@ -23,12 +37,10 @@ export default class CreateDomElement {
 
       const currentElement = this.createItem(item);
       
-      if (data) {
-        if (item.tag === 'img') {
-          currentElement.src = data[currentElement.className];
-        } else if (item.tag === 'p') {
-          currentElement.textContent = data[currentElement.className];
-        }
+      if (item.tag === 'img') {
+        currentElement.src = data[currentElement.className];
+      } else if (item.tag === 'p') {
+        currentElement.textContent = data[currentElement.className];
       }
 
       newElement.push(currentElement);
@@ -41,12 +53,13 @@ export default class CreateDomElement {
     return newElement.filter((item) => !item.parentNode);
   }
 
-  addNewElement(count, to) {
+  addNewElement(count, to, isRandom, type) {
     const result = this.createItem(this.item[0]);
-    this.itemsData.sort(() => Math.random() - 0.5);
+
+    if (isRandom) this.itemsData.sort(() => Math.random() - 0.5);
 
     for (let i = 1; i < count + 1; i++) {
-      const childrens = this.createElement(this.itemsData[i]);
+      const childrens = this.createElement(this.itemsData[this.typeCount[type](i)]);
 
       if (childrens.length > 1) {
         for (let i = 0; i < childrens.length; i++) {
@@ -60,9 +73,11 @@ export default class CreateDomElement {
 
     if (to === 'start') {
       this.parent.prepend(result);
-    } else {
+    } else if (to === "end") {
       this.parent.append(result);
     }
+
+    return result;
   }
 
   removeDomElements(count, from) {

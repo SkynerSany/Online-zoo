@@ -1,8 +1,5 @@
 const itemsData = [
   {
-
-  },
-  {
     popup__close: '×',
   },
 ];

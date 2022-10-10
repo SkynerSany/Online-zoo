@@ -7,12 +7,12 @@ export default class testimonialsPopup {
   }
 
   getReview(e) {
-    const review = e.path.find((item) => item.className === 'testimonials__review');
+    const review = e.composedPath().find((item) => item.className === 'testimonials__review');
 
     if (!review) return;
 
-    this.createDomElement.addNewElement(1, 1);
-    return review;
+    this.createDomElement.addNewElement(1, 'end', false, 'popup');
+    return review.cloneNode(true);
   }
 
   addReview(review) {
