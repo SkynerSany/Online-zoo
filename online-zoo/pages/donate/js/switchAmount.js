@@ -6,7 +6,17 @@ export default class SwitchAmount {
 
   changeSwitcher(amount, form) {
     const radioBtn = Array.from(form.elements).find((item) => item.dataset.amount === amount);
-    if (radioBtn) radioBtn.checked = true;
+    
+    if (radioBtn) {
+      radioBtn.checked = true;
+      return;
+    } 
+
+    const input = Array.from(form.elements).find((item) => item.checked);
+    
+    if (input) {
+      input.checked = false;
+    }
   }
   
   setEvents() {
