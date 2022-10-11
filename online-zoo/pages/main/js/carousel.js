@@ -13,9 +13,13 @@ export default class Carousel {
 
   position = 0;
 
-  setDisabled(btn, timeOut) {
+  setWaiting(btn, timeOut, from) {
     btn.disabled = true;
-    setTimeout(() => btn.disabled = false, timeOut);
+    
+    setTimeout(() => {
+      btn.disabled = false;
+      this.createDomElement.removeDomElements(1, from);
+    }, timeOut);
   }
 
   switchItem(from) {
@@ -24,31 +28,27 @@ export default class Carousel {
   }
 
   setNextItem() {
-    this.position += this.sliderItemWidth + parseFloat(getComputedStyle(this.slider).columnGap);
+    this.setItems(1, 6, true, 'end');
 
-    if (this.position >= this.sliderWidth) {
-      this.switchItem('start');
-      this.position = 0;
-    }
+    this.position = this.sliderItemWidth
 
-    this.slider.style["transform"] = `translateX(${-this.position}px)`;
+    this.slider.parentNode.scrollBy(this.position, 0);
     
-    this.setDisabled(this.btnNext, 500);
-    this.switchItem('end');
+    this.setWaiting(this.btnNext, 600, 'start');
   }
 
   setPrevItem() {
-    this.position -= this.sliderItemWidth + parseFloat(getComputedStyle(this.slider).columnGap);
+    this.setItems(1, 6, true, 'start');
 
-    if (this.position < 0) {
-      this.switchItem('end');
-      this.position = this.sliderWidth - this.sliderItemWidth;
-    }
+    this.position = this.sliderItemWidth
 
-    this.slider.style.transform = `translateX(${-this.position}px)`;
-    this.setDisabled(this.btnPrev, 500);
+    this.slider.parentNode.style.scrollBehavior = 'auto';
+    this.slider.parentNode.scrollBy(this.position, 0);
 
-    this.switchItem('start');
+    this.slider.parentNode.style.scrollBehavior = 'smooth';
+    this.slider.parentNode.scrollTo(0, 0);
+    
+    this.setWaiting(this.btnPrev, 600, 'end');
   }
 
   setCurrentItem() {

@@ -28,7 +28,7 @@ const testimonialsCarousel = new Carousel(
 const testimonialsPopup = new TestimonialsPopup(testimonialsPopupData);
 const burgerMenu = new BurgerMenu();
 
-petsCarousel.setEvents(3, 6, true);
+petsCarousel.setEvents(1, 6, true);
 testimonialsCarousel.setEvents(11, 1, false);
 testimonialsPopup.setEvents();
 burgerMenu.setEvents();
